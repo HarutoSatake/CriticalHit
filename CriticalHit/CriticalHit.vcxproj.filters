@@ -1,0 +1,124 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Common">
+      <UniqueIdentifier>f43069de-a4c7-4ecd-b181-510bd44cabb7</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Assets">
+      <UniqueIdentifier>afc7aba8-c510-4a99-9f4c-fde0437aabcc</UniqueIdentifier>
+      <Extensions>ico;cur;bmp;dds;dlg;fbx;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tga;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="pch.h" />
+    <ClInclude Include="Game.h" />
+    <ClInclude Include="StepTimer.h">
+      <Filter>Common</Filter>
+    </ClInclude>
+    <ClInclude Include="DeviceResources.h">
+      <Filter>Common</Filter>
+    </ClInclude>
+    <ClInclude Include="DebugCamera.h" />
+    <ClInclude Include="DebugMode.h" />
+    <ClInclude Include="EffectManager.h" />
+    <ClInclude Include="EnemyBullet.h" />
+    <ClInclude Include="EnemyGenerator.h" />
+    <ClInclude Include="FixedCamera.h" />
+    <ClInclude Include="Font.h" />
+    <ClInclude Include="GameContext.h" />
+    <ClInclude Include="GameObject.h" />
+    <ClInclude Include="GameObjectManager.h" />
+    <ClInclude Include="GameScene.h" />
+    <ClInclude Include="GameSceneManager.h" />
+    <ClInclude Include="GridFloor.h" />
+    <ClInclude Include="Ground.h" />
+    <ClInclude Include="HPGauge.h" />
+    <ClInclude Include="Moji.h" />
+    <ClInclude Include="Myeffect.h" />
+    <ClInclude Include="NormalEnemy.h" />
+    <ClInclude Include="picojson.h" />
+    <ClInclude Include="Player.h" />
+    <ClInclude Include="PlayScene.h" />
+    <ClInclude Include="Projection.h" />
+    <ClInclude Include="ResultScene.h" />
+    <ClInclude Include="Reticule.h" />
+    <ClInclude Include="ScoreManager.h" />
+    <ClInclude Include="SideMoveEnemy.h" />
+    <ClInclude Include="SkyDoom.h" />
+    <ClInclude Include="SpecialUI.h" />
+    <ClInclude Include="SphereCollider.h" />
+    <ClInclude Include="TargetCamera.h" />
+    <ClInclude Include="TitleScene.h" />
+    <ClInclude Include="Utilities.h" />
+    <ClInclude Include="View.h" />
+    <ClInclude Include="WaveMoveEnemy.h" />
+    <ClInclude Include="Adx2Le.h" />
+    <ClInclude Include="BinaryFile.h" />
+    <ClInclude Include="BoxCollider.h" />
+    <ClInclude Include="Bullet.h" />
+    <ClInclude Include="ChargeShot.h" />
+    <ClInclude Include="ChargeUI.h" />
+    <ClInclude Include="Collider.h" />
+    <ClInclude Include="CollisionManager.h" />
+    <ClInclude Include="PseudoObject.h" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="pch.cpp" />
+    <ClCompile Include="Game.cpp" />
+    <ClCompile Include="Main.cpp" />
+    <ClCompile Include="DeviceResources.cpp">
+      <Filter>Common</Filter>
+    </ClCompile>
+    <ClCompile Include="DebugCamera.cpp" />
+    <ClCompile Include="DebugMode.cpp" />
+    <ClCompile Include="EffectManager.cpp" />
+    <ClCompile Include="EnemyBullet.cpp" />
+    <ClCompile Include="EnemyGenerator.cpp" />
+    <ClCompile Include="FixedCamera.cpp" />
+    <ClCompile Include="Font.cpp" />
+    <ClCompile Include="GameObject.cpp" />
+    <ClCompile Include="GameObjectManager.cpp" />
+    <ClCompile Include="GameSceneManager.cpp" />
+    <ClCompile Include="GridFloor.cpp" />
+    <ClCompile Include="Ground.cpp" />
+    <ClCompile Include="HPGauge.cpp" />
+    <ClCompile Include="Moji.cpp" />
+    <ClCompile Include="MyEffect.cpp" />
+    <ClCompile Include="NormalEnemy.cpp" />
+    <ClCompile Include="Player.cpp" />
+    <ClCompile Include="PlayScene.cpp" />
+    <ClCompile Include="PseudoObject.cpp" />
+    <ClCompile Include="ResultScene.cpp" />
+    <ClCompile Include="Reticule.cpp" />
+    <ClCompile Include="ScoreManager.cpp" />
+    <ClCompile Include="SideMoveEnemy.cpp" />
+    <ClCompile Include="SkyDoom.cpp" />
+    <ClCompile Include="SpecialUI.cpp" />
+    <ClCompile Include="SphereCollider.cpp" />
+    <ClCompile Include="TargetCamera.cpp" />
+    <ClCompile Include="TitleScene.cpp" />
+    <ClCompile Include="Utilities.cpp" />
+    <ClCompile Include="WaveMoveEnemy.cpp" />
+    <ClCompile Include="Adx2Le.cpp" />
+    <ClCompile Include="BinaryFile.cpp" />
+    <ClCompile Include="BoxCollider.cpp" />
+    <ClCompile Include="Bullet.cpp" />
+    <ClCompile Include="ChargeShot.cpp" />
+    <ClCompile Include="ChargeUI.cpp" />
+    <ClCompile Include="Collider.cpp" />
+    <ClCompile Include="CollisionManager.cpp" />
+  </ItemGroup>
+  <ItemGroup>
+    <ResourceCompile Include="resource.rc" />
+  </ItemGroup>
+  <ItemGroup>
+    <Image Include="directx.ico">
+      <Filter>Assets</Filter>
+    </Image>
+  </ItemGroup>
+  <ItemGroup>
+    <Manifest Include="settings.manifest">
+      <Filter>Assets</Filter>
+    </Manifest>
+  </ItemGroup>
+</Project>
