@@ -24,7 +24,7 @@ Reticule::Reticule()
 
 	DirectX::CreateWICTextureFromFile(
 		m_deviceResources->GetD3DDevice(), 
-		L"Resources\\Textures\\Retucule.png", 
+		L"\Resources\\Textures\\Retucule.png", 
 		nullptr, m_texture.GetAddressOf());
 }
 

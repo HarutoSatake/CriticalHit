@@ -11,7 +11,7 @@
 #include "EnemyBullet.h"
 
 #include "Adx2Le.h"
-#include "Resources\Sound\Soundcue.h"
+#include "..\..\Resources\Sound\Soundcue.h"
 
 SideMoveEnemy::SideMoveEnemy(const DirectX::SimpleMath::Vector3& position,int type)
 	: GameObject("Enemy")

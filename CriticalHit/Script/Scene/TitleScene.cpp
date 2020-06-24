@@ -8,7 +8,7 @@
 #include <Keyboard.h>
 
 #include "Adx2Le.h"
-#include "Resources\Sound\Soundcue.h"
+#include "..\..\Resources\Sound\Soundcue.h"
 
 TitleScene::TitleScene()
 	: m_wait(0.0f)

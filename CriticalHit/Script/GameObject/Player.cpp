@@ -24,7 +24,7 @@
 #include "Reticule.h"
 
 #include "Adx2Le.h"
-#include "Resources\Sound\Soundcue.h"
+#include "..\..\Resources\Sound\Soundcue.h"
 
 Player::Player(const DirectX::SimpleMath::Vector3& position, float fireInterval)
 	: GameObject("Player")
@@ -57,11 +57,11 @@ Player::Player(const DirectX::SimpleMath::Vector3& position, float fireInterval)
 	// ƒ‚ƒfƒ‹•`‰æ€”õ
 	DirectX::EffectFactory* factory = new DirectX::EffectFactory(deviceResources->GetD3DDevice());
 
-	factory->SetDirectory(L"Resources/Models");
+	factory->SetDirectory(L"\Resources/Models");
 
 	m_pModel = DirectX::Model::CreateFromCMO(
 		deviceResources->GetD3DDevice(),
-		L"Resources/Models/aircraft.cmo",
+		L"\Resources/Models/aircraft.cmo",
 		*factory);
 
 	delete factory;
@@ -474,5 +474,3 @@ void Player::Shot(const int& shottype)
 	m_elapsedTime = 0.0f;
 	m_isLoading = true;
 }
-
-

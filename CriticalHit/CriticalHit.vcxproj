@@ -57,6 +57,8 @@
   </PropertyGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.props" />
   <ImportGroup Label="ExtensionSettings">
+    <Import Project="$(VCTargetsPath)\BuildCustomizations\ImageContentTask.props" />
+    <Import Project="$(VCTargetsPath)\BuildCustomizations\MeshContentTask.props" />
   </ImportGroup>
   <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
     <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
@@ -77,7 +79,7 @@
   <PropertyGroup Label="UserMacros" />
   <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
     <LinkIncremental>true</LinkIncremental>
-    <IncludePath>C:\Users\s182108\Documents\Visual Studio 2015\Projects\２年\CriticalHit\CriticalHit\ADX2LE\include;C:\DirectXTK\Inc;$(IncludePath)</IncludePath>
+    <IncludePath>C:\DirectXTK\Inc;C:\Users\s182108\Documents\Visual Studio 2015\Projects\２年\CriticalHit\CriticalHit\ADX2LE\include;C:\Users\s182108\Documents\Visual Studio 2015\Projects\就職作品\CriticalHit\CriticalHit\Script\UI;C:\Users\s182108\Documents\Visual Studio 2015\Projects\就職作品\CriticalHit\CriticalHit\Script\Manager;C:\Users\s182108\Documents\Visual Studio 2015\Projects\就職作品\CriticalHit\CriticalHit\Script\Scene;C:\Users\s182108\Documents\Visual Studio 2015\Projects\就職作品\CriticalHit\CriticalHit\Script\GameObject;C:\Users\s182108\Documents\Visual Studio 2015\Projects\就職作品\CriticalHit\CriticalHit\Script\Collider;C:\Users\s182108\Documents\Visual Studio 2015\Projects\就職作品\CriticalHit\CriticalHit\Script;$(IncludePath)</IncludePath>
     <LibraryPath>C:\DirectXTK\Bin\Desktop_2015\Win32\Debug;$(LibraryPath)</LibraryPath>
   </PropertyGroup>
   <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
@@ -107,6 +109,9 @@
       <GenerateDebugInformation>true</GenerateDebugInformation>
       <AdditionalDependencies>directxtk.lib;d3d11.lib;dxgi.lib;dxguid.lib;uuid.lib;kernel32.lib;user32.lib;gdi32.lib;winspool.lib;comdlg32.lib;advapi32.lib;shell32.lib;ole32.lib;oleaut32.lib;odbc32.lib;odbccp32.lib;%(AdditionalDependencies)</AdditionalDependencies>
     </Link>
+    <MeshContentTask>
+      <ContentOutput>Resources\Models\%(Filename).cmo</ContentOutput>
+    </MeshContentTask>
   </ItemDefinitionGroup>
   <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
     <ClCompile>
@@ -164,105 +169,99 @@
     </Link>
   </ItemDefinitionGroup>
   <ItemGroup>
-    <ClInclude Include="Adx2Le.h" />
-    <ClInclude Include="BinaryFile.h" />
-    <ClInclude Include="BoxCollider.h" />
-    <ClInclude Include="Bullet.h" />
-    <ClInclude Include="ChargeShot.h" />
-    <ClInclude Include="ChargeUI.h" />
-    <ClInclude Include="Collider.h" />
-    <ClInclude Include="CollisionManager.h" />
-    <ClInclude Include="DebugCamera.h" />
-    <ClInclude Include="DebugMode.h" />
-    <ClInclude Include="DeviceResources.h" />
-    <ClInclude Include="EffectManager.h" />
-    <ClInclude Include="EnemyBullet.h" />
-    <ClInclude Include="EnemyGenerator.h" />
-    <ClInclude Include="FixedCamera.h" />
-    <ClInclude Include="Font.h" />
-    <ClInclude Include="Game.h" />
-    <ClInclude Include="GameContext.h" />
-    <ClInclude Include="GameObject.h" />
-    <ClInclude Include="GameObjectManager.h" />
-    <ClInclude Include="GameScene.h" />
-    <ClInclude Include="GameSceneManager.h" />
-    <ClInclude Include="GridFloor.h" />
-    <ClInclude Include="Ground.h" />
-    <ClInclude Include="HPGauge.h" />
-    <ClInclude Include="Moji.h" />
-    <ClInclude Include="Myeffect.h" />
-    <ClInclude Include="NormalEnemy.h" />
-    <ClInclude Include="pch.h" />
-    <ClInclude Include="picojson.h" />
-    <ClInclude Include="Player.h" />
-    <ClInclude Include="PlayScene.h" />
-    <ClInclude Include="Projection.h" />
-    <ClInclude Include="PseudoObject.h" />
-    <ClInclude Include="ResultScene.h" />
-    <ClInclude Include="Reticule.h" />
-    <ClInclude Include="ScoreManager.h" />
-    <ClInclude Include="SideMoveEnemy.h" />
-    <ClInclude Include="SkyDoom.h" />
-    <ClInclude Include="SpecialUI.h" />
-    <ClInclude Include="SphereCollider.h" />
-    <ClInclude Include="StepTimer.h" />
-    <ClInclude Include="TargetCamera.h" />
-    <ClInclude Include="TitleScene.h" />
-    <ClInclude Include="Utilities.h" />
-    <ClInclude Include="View.h" />
-    <ClInclude Include="WaveMoveEnemy.h" />
+    <ClInclude Include="Script\Adx2Le.h" />
+    <ClInclude Include="Script\BinaryFile.h" />
+    <ClInclude Include="Script\Collider\BoxCollider.h" />
+    <ClInclude Include="Script\Collider\Collider.h" />
+    <ClInclude Include="Script\Collider\SphereCollider.h" />
+    <ClInclude Include="Script\DebugMode.h" />
+    <ClInclude Include="Script\DeviceResources.h" />
+    <ClInclude Include="Script\Game.h" />
+    <ClInclude Include="Script\GameContext.h" />
+    <ClInclude Include="Script\GameObject\Bullet.h" />
+    <ClInclude Include="Script\GameObject\ChargeShot.h" />
+    <ClInclude Include="Script\GameObject\ChargeUI.h" />
+    <ClInclude Include="Script\GameObject\DebugCamera.h" />
+    <ClInclude Include="Script\GameObject\EnemyBullet.h" />
+    <ClInclude Include="Script\GameObject\EnemyGenerator.h" />
+    <ClInclude Include="Script\GameObject\FixedCamera.h" />
+    <ClInclude Include="Script\GameObject\GameObject.h" />
+    <ClInclude Include="Script\GameObject\GridFloor.h" />
+    <ClInclude Include="Script\GameObject\Ground.h" />
+    <ClInclude Include="Script\GameObject\NormalEnemy.h" />
+    <ClInclude Include="Script\GameObject\Player.h" />
+    <ClInclude Include="Script\GameObject\PseudoObject.h" />
+    <ClInclude Include="Script\GameObject\SideMoveEnemy.h" />
+    <ClInclude Include="Script\GameObject\SkyDoom.h" />
+    <ClInclude Include="Script\GameObject\TargetCamera.h" />
+    <ClInclude Include="Script\GameObject\WaveMoveEnemy.h" />
+    <ClInclude Include="Script\GameScene.h" />
+    <ClInclude Include="Script\Manager\CollisionManager.h" />
+    <ClInclude Include="Script\Manager\EffectManager.h" />
+    <ClInclude Include="Script\Manager\GameObjectManager.h" />
+    <ClInclude Include="Script\Manager\GameSceneManager.h" />
+    <ClInclude Include="Script\Manager\ScoreManager.h" />
+    <ClInclude Include="Script\Myeffect.h" />
+    <ClInclude Include="Script\pch.h" />
+    <ClInclude Include="Script\picojson.h" />
+    <ClInclude Include="Script\Projection.h" />
+    <ClInclude Include="Script\Scene\PlayScene.h" />
+    <ClInclude Include="Script\Scene\ResultScene.h" />
+    <ClInclude Include="Script\Scene\TitleScene.h" />
+    <ClInclude Include="Script\StepTimer.h" />
+    <ClInclude Include="Script\UI\Font.h" />
+    <ClInclude Include="Script\UI\HPGauge.h" />
+    <ClInclude Include="Script\UI\Moji.h" />
+    <ClInclude Include="Script\UI\Reticule.h" />
+    <ClInclude Include="Script\UI\SpecialUI.h" />
+    <ClInclude Include="Script\Utilities.h" />
+    <ClInclude Include="Script\View.h" />
   </ItemGroup>
   <ItemGroup>
-    <ClCompile Include="Adx2Le.cpp" />
-    <ClCompile Include="BinaryFile.cpp" />
-    <ClCompile Include="BoxCollider.cpp" />
-    <ClCompile Include="Bullet.cpp" />
-    <ClCompile Include="ChargeShot.cpp" />
-    <ClCompile Include="ChargeUI.cpp" />
-    <ClCompile Include="Collider.cpp" />
-    <ClCompile Include="CollisionManager.cpp" />
-    <ClCompile Include="DebugCamera.cpp" />
-    <ClCompile Include="DebugMode.cpp" />
-    <ClCompile Include="DeviceResources.cpp" />
-    <ClCompile Include="EffectManager.cpp" />
-    <ClCompile Include="EnemyBullet.cpp" />
-    <ClCompile Include="EnemyGenerator.cpp" />
-    <ClCompile Include="FixedCamera.cpp" />
-    <ClCompile Include="Font.cpp" />
-    <ClCompile Include="Game.cpp" />
-    <ClCompile Include="GameObject.cpp" />
-    <ClCompile Include="GameObjectManager.cpp" />
-    <ClCompile Include="GameSceneManager.cpp" />
-    <ClCompile Include="GridFloor.cpp" />
-    <ClCompile Include="Ground.cpp" />
-    <ClCompile Include="HPGauge.cpp" />
-    <ClCompile Include="Main.cpp" />
-    <ClCompile Include="Moji.cpp" />
-    <ClCompile Include="MyEffect.cpp" />
-    <ClCompile Include="NormalEnemy.cpp" />
-    <ClCompile Include="pch.cpp">
+    <ClCompile Include="Script\Adx2Le.cpp" />
+    <ClCompile Include="Script\BinaryFile.cpp" />
+    <ClCompile Include="Script\Collider\BoxCollider.cpp" />
+    <ClCompile Include="Script\Collider\Collider.cpp" />
+    <ClCompile Include="Script\Collider\SphereCollider.cpp" />
+    <ClCompile Include="Script\DebugMode.cpp" />
+    <ClCompile Include="Script\DeviceResources.cpp" />
+    <ClCompile Include="Script\Game.cpp" />
+    <ClCompile Include="Script\GameObject\Bullet.cpp" />
+    <ClCompile Include="Script\GameObject\ChargeShot.cpp" />
+    <ClCompile Include="Script\GameObject\ChargeUI.cpp" />
+    <ClCompile Include="Script\GameObject\DebugCamera.cpp" />
+    <ClCompile Include="Script\GameObject\EnemyBullet.cpp" />
+    <ClCompile Include="Script\GameObject\EnemyGenerator.cpp" />
+    <ClCompile Include="Script\GameObject\FixedCamera.cpp" />
+    <ClCompile Include="Script\GameObject\GameObject.cpp" />
+    <ClCompile Include="Script\GameObject\GridFloor.cpp" />
+    <ClCompile Include="Script\GameObject\Ground.cpp" />
+    <ClCompile Include="Script\GameObject\NormalEnemy.cpp" />
+    <ClCompile Include="Script\GameObject\Player.cpp" />
+    <ClCompile Include="Script\GameObject\PseudoObject.cpp" />
+    <ClCompile Include="Script\GameObject\SideMoveEnemy.cpp" />
+    <ClCompile Include="Script\GameObject\SkyDoom.cpp" />
+    <ClCompile Include="Script\GameObject\TargetCamera.cpp" />
+    <ClCompile Include="Script\GameObject\WaveMoveEnemy.cpp" />
+    <ClCompile Include="Script\Main.cpp" />
+    <ClCompile Include="Script\Manager\CollisionManager.cpp" />
+    <ClCompile Include="Script\Manager\EffectManager.cpp" />
+    <ClCompile Include="Script\Manager\GameObjectManager.cpp" />
+    <ClCompile Include="Script\Manager\GameSceneManager.cpp" />
+    <ClCompile Include="Script\Manager\ScoreManager.cpp" />
+    <ClCompile Include="Script\MyEffect.cpp" />
+    <ClCompile Include="Script\pch.cpp">
       <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">Create</PrecompiledHeader>
-      <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">Create</PrecompiledHeader>
-      <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">Create</PrecompiledHeader>
-      <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Release|x64'">Create</PrecompiledHeader>
     </ClCompile>
-    <ClCompile Include="Player.cpp" />
-    <ClCompile Include="PlayScene.cpp" />
-    <ClCompile Include="PseudoObject.cpp" />
-    <ClCompile Include="ResultScene.cpp" />
-    <ClCompile Include="Reticule.cpp" />
-    <ClCompile Include="ScoreManager.cpp" />
-    <ClCompile Include="SideMoveEnemy.cpp" />
-    <ClCompile Include="SkyDoom.cpp" />
-    <ClCompile Include="SpecialUI.cpp" />
-    <ClCompile Include="SphereCollider.cpp" />
-    <ClCompile Include="TargetCamera.cpp" />
-    <ClCompile Include="TitleScene.cpp" />
-    <ClCompile Include="Utilities.cpp" />
-    <ClCompile Include="WaveMoveEnemy.cpp" />
-  </ItemGroup>
-  <ItemGroup>
-    <ResourceCompile Include="resource.rc" />
+    <ClCompile Include="Script\Scene\PlayScene.cpp" />
+    <ClCompile Include="Script\Scene\ResultScene.cpp" />
+    <ClCompile Include="Script\Scene\TitleScene.cpp" />
+    <ClCompile Include="Script\UI\Font.cpp" />
+    <ClCompile Include="Script\UI\HPGauge.cpp" />
+    <ClCompile Include="Script\UI\Moji.cpp" />
+    <ClCompile Include="Script\UI\Reticule.cpp" />
+    <ClCompile Include="Script\UI\SpecialUI.cpp" />
+    <ClCompile Include="Script\Utilities.cpp" />
   </ItemGroup>
   <ItemGroup>
     <Image Include="directx.ico" />
@@ -270,7 +269,15 @@
   <ItemGroup>
     <Manifest Include="settings.manifest" />
   </ItemGroup>
+  <ItemGroup>
+    <MeshContentTask Include="Resources\FBX\aircraft.FBX" />
+    <MeshContentTask Include="Resources\FBX\Enemy.FBX" />
+    <MeshContentTask Include="Resources\FBX\Sea.FBX" />
+    <MeshContentTask Include="Resources\FBX\SkyDoom.FBX" />
+  </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">
+    <Import Project="$(VCTargetsPath)\BuildCustomizations\ImageContentTask.targets" />
+    <Import Project="$(VCTargetsPath)\BuildCustomizations\MeshContentTask.targets" />
   </ImportGroup>
 </Project>

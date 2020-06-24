@@ -16,7 +16,7 @@
 #include "EffectManager.h"
 
 #include "Adx2Le.h"
-#include "Resources\Sound\Soundcue.h"
+#include "..\..\Resources\Sound\Soundcue.h"
 
 ResultScene::ResultScene()
 	: m_begin(true)

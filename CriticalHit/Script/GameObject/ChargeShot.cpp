@@ -5,7 +5,7 @@
 #include "CollisionManager.h"
 #include "GameContext.h"
 #include "Adx2Le.h"
-#include "Resources\Sound\Soundcue.h"
+#include "..\..\Resources\Sound\Soundcue.h"
 
 ChargeShot::ChargeShot(const DirectX::SimpleMath::Vector3& position, const DirectX::SimpleMath::Vector3& azimuth, float power)
 	: GameObject("Bullet")

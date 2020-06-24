@@ -13,7 +13,7 @@
 #include "View.h"
 
 #include "Adx2Le.h"
-#include "Resources\Sound\Soundcue.h"
+#include "..\..\Resources\Sound\Soundcue.h"
 
 Bullet::Bullet(const DirectX::SimpleMath::Vector3& position, const DirectX::SimpleMath::Vector3& azimuth)
 	: GameObject("Bullet")

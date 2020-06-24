@@ -30,7 +30,7 @@
 #include "ChargeUI.h"
 
 #include "Adx2Le.h"
-#include "Resources\Sound\Soundcue.h"
+#include "..\..\Resources\Sound\Soundcue.h"
 
 PlayScene::PlayScene()
 	: m_state(STATE_DEMO)

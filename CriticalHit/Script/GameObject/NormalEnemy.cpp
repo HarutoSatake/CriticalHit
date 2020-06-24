@@ -12,7 +12,7 @@
 #include "Font.h"
 
 #include "Adx2Le.h"
-#include "Resources\Sound\Soundcue.h"
+#include "..\..\Resources\Sound\Soundcue.h"
 
 NormalEnemy::NormalEnemy(const DirectX::SimpleMath::Vector3& position)
 	: GameObject("Enemy")
