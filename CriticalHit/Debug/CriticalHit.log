@@ -2,11 +2,6 @@
   Resources\FBX\Enemy.FBX
   Resources\FBX\Sea.FBX
   Resources\FBX\SkyDoom.FBX
-  WaveMoveEnemy.cpp
-  SideMoveEnemy.cpp
-c:\users\s182108\documents\visual studio 2015\projects\就職作品\criticalhit\criticalhit\script\gameobject\sidemoveenemy.cpp(16): warning C4100: 'type': 引数は関数の本体部で 1 度も参照されません。
-  NormalEnemy.cpp
-  コードを生成中...
   スキップ中... (関連する変更は検出されませんでした)
   Utilities.cpp
   SpecialUI.cpp
@@ -24,10 +19,13 @@ c:\users\s182108\documents\visual studio 2015\projects\就職作品\criticalhit\
   EffectManager.cpp
   CollisionManager.cpp
   Main.cpp
+  WaveMoveEnemy.cpp
   TargetCamera.cpp
   SkyDoom.cpp
+  SideMoveEnemy.cpp
   PseudoObject.cpp
   Player.cpp
+  NormalEnemy.cpp
   Ground.cpp
   GridFloor.cpp
   GameObject.cpp
@@ -46,6 +44,8 @@ c:\users\s182108\documents\visual studio 2015\projects\就職作品\criticalhit\
   BoxCollider.cpp
   BinaryFile.cpp
   Adx2Le.cpp
+  LINK : 前回のインクリメンタル リンクで C:\Users\s182108\Documents\Visual Studio 2015\Projects\就職作品\CriticalHit\Debug\CriticalHit.exe が見つからなかったか、ビルドされませんでした。フル リンクを行います。
+     ライブラリ C:\Users\s182108\Documents\Visual Studio 2015\Projects\就職作品\CriticalHit\Debug\CriticalHit.lib とオブジェクト C:\Users\s182108\Documents\Visual Studio 2015\Projects\就職作品\CriticalHit\Debug\CriticalHit.exp を作成中
   CriticalHit.vcxproj -> C:\Users\s182108\Documents\Visual Studio 2015\Projects\就職作品\CriticalHit\Debug\CriticalHit.exe
   CriticalHit.vcxproj -> C:\Users\s182108\Documents\Visual Studio 2015\Projects\就職作品\CriticalHit\Debug\CriticalHit.pdb (Full PDB)
   0 個のファイルをコピーしました
