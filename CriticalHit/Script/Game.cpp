@@ -7,9 +7,9 @@
 
 #include "GameContext.h"
 
-#include "TitleScene.h"
-#include "PlayScene.h" 
-#include "ResultScene.h"
+#include "Scene\TitleScene\TitleScene.h"
+#include "Scene\PlayScene\PlayScene.h"
+#include "Scene\ResultScene\ResultScene.h"
 
 #include "ScoreManager.h"
 extern void ExitGame();
@@ -294,12 +294,12 @@ void Game::CreateWindowSizeDependentResources()
 
 	// ウィンドウサイズからアスペクト比を算出する。
 	RECT size = m_deviceResources->GetOutputSize();
-	float aspectRatio = float(size.right) / float(size.bottom);
+	/*float aspectRatio = float(size.right) / float(size.bottom);*/
 	RECT outputSize = m_deviceResources->GetOutputSize();
 	UINT backBufferWidth = std::max<UINT>(outputSize.right - outputSize.left, 1);
 	UINT backBufferHeight = std::max<UINT>(outputSize.bottom - outputSize.top, 1);
-	// 画角を設定
-	float fovAngleY = XMConvertToRadians(45.0f);
+	//// 画角を設定
+	//float fovAngleY = XMConvertToRadians(45.0f);
 
 	// 射影行列を作成する
 	m_projection = std::make_unique<Projection>();

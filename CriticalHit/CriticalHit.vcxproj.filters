@@ -23,6 +23,15 @@
     <Filter Include="UI">
       <UniqueIdentifier>{803e8a7c-17da-4bca-9783-8010a8245b93}</UniqueIdentifier>
     </Filter>
+    <Filter Include="Scene\PlayScene">
+      <UniqueIdentifier>{46c62a4c-cb9b-48fe-a3a3-a1f4549c0652}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Scene\TitleScene">
+      <UniqueIdentifier>{36eab923-b428-42cb-8734-c5e00696a9f1}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Scene\ResultScene">
+      <UniqueIdentifier>{da702e57-65ad-4b02-b380-74192e86e71f}</UniqueIdentifier>
+    </Filter>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="Script\Adx2Le.h" />
@@ -52,15 +61,6 @@
     <ClInclude Include="Script\UI\HPGauge.h">
       <Filter>UI</Filter>
     </ClInclude>
-    <ClInclude Include="Script\Scene\PlayScene.h">
-      <Filter>Scene</Filter>
-    </ClInclude>
-    <ClInclude Include="Script\Scene\ResultScene.h">
-      <Filter>Scene</Filter>
-    </ClInclude>
-    <ClInclude Include="Script\Scene\TitleScene.h">
-      <Filter>Scene</Filter>
-    </ClInclude>
     <ClInclude Include="Script\Manager\CollisionManager.h">
       <Filter>Manager</Filter>
     </ClInclude>
@@ -76,52 +76,13 @@
     <ClInclude Include="Script\Manager\ScoreManager.h">
       <Filter>Manager</Filter>
     </ClInclude>
-    <ClInclude Include="Script\GameObject\SideMoveEnemy.h">
-      <Filter>GameObject</Filter>
-    </ClInclude>
-    <ClInclude Include="Script\GameObject\SkyDoom.h">
-      <Filter>GameObject</Filter>
-    </ClInclude>
-    <ClInclude Include="Script\GameObject\TargetCamera.h">
-      <Filter>GameObject</Filter>
-    </ClInclude>
-    <ClInclude Include="Script\GameObject\WaveMoveEnemy.h">
-      <Filter>GameObject</Filter>
-    </ClInclude>
-    <ClInclude Include="Script\GameObject\Bullet.h">
-      <Filter>GameObject</Filter>
-    </ClInclude>
-    <ClInclude Include="Script\GameObject\ChargeShot.h">
-      <Filter>GameObject</Filter>
-    </ClInclude>
     <ClInclude Include="Script\GameObject\DebugCamera.h">
-      <Filter>GameObject</Filter>
-    </ClInclude>
-    <ClInclude Include="Script\GameObject\EnemyBullet.h">
-      <Filter>GameObject</Filter>
-    </ClInclude>
-    <ClInclude Include="Script\GameObject\EnemyGenerator.h">
       <Filter>GameObject</Filter>
     </ClInclude>
     <ClInclude Include="Script\GameObject\FixedCamera.h">
       <Filter>GameObject</Filter>
     </ClInclude>
     <ClInclude Include="Script\GameObject\GameObject.h">
-      <Filter>GameObject</Filter>
-    </ClInclude>
-    <ClInclude Include="Script\GameObject\GridFloor.h">
-      <Filter>GameObject</Filter>
-    </ClInclude>
-    <ClInclude Include="Script\GameObject\Ground.h">
-      <Filter>GameObject</Filter>
-    </ClInclude>
-    <ClInclude Include="Script\GameObject\NormalEnemy.h">
-      <Filter>GameObject</Filter>
-    </ClInclude>
-    <ClInclude Include="Script\GameObject\Player.h">
-      <Filter>GameObject</Filter>
-    </ClInclude>
-    <ClInclude Include="Script\GameObject\PseudoObject.h">
       <Filter>GameObject</Filter>
     </ClInclude>
     <ClInclude Include="Script\Collider\BoxCollider.h">
@@ -139,8 +100,56 @@
     <ClInclude Include="Script\StepTimer.h">
       <Filter>Common</Filter>
     </ClInclude>
-    <ClInclude Include="Script\GameObject\ChargeUI.h">
+    <ClInclude Include="Script\Scene\TitleScene\TitleScene.h">
+      <Filter>Scene\TitleScene</Filter>
+    </ClInclude>
+    <ClInclude Include="Script\Scene\PlayScene\PlayScene.h">
+      <Filter>Scene\PlayScene</Filter>
+    </ClInclude>
+    <ClInclude Include="Script\Scene\ResultScene\ResultScene.h">
+      <Filter>Scene\ResultScene</Filter>
+    </ClInclude>
+    <ClInclude Include="Script\Scene\PlayScene\WaveMoveEnemy.h">
+      <Filter>Scene\PlayScene</Filter>
+    </ClInclude>
+    <ClInclude Include="Script\Scene\PlayScene\Bullet.h">
+      <Filter>Scene\PlayScene</Filter>
+    </ClInclude>
+    <ClInclude Include="Script\Scene\PlayScene\ChargeShot.h">
+      <Filter>Scene\PlayScene</Filter>
+    </ClInclude>
+    <ClInclude Include="Script\Scene\PlayScene\EnemyBullet.h">
+      <Filter>Scene\PlayScene</Filter>
+    </ClInclude>
+    <ClInclude Include="Script\Scene\PlayScene\EnemyGenerator.h">
+      <Filter>Scene\PlayScene</Filter>
+    </ClInclude>
+    <ClInclude Include="Script\Scene\PlayScene\Ground.h">
+      <Filter>Scene\PlayScene</Filter>
+    </ClInclude>
+    <ClInclude Include="Script\Scene\PlayScene\NormalEnemy.h">
+      <Filter>Scene\PlayScene</Filter>
+    </ClInclude>
+    <ClInclude Include="Script\Scene\PlayScene\Player.h">
+      <Filter>Scene\PlayScene</Filter>
+    </ClInclude>
+    <ClInclude Include="Script\Scene\PlayScene\PseudoObject.h">
+      <Filter>Scene\PlayScene</Filter>
+    </ClInclude>
+    <ClInclude Include="Script\Scene\PlayScene\SideMoveEnemy.h">
+      <Filter>Scene\PlayScene</Filter>
+    </ClInclude>
+    <ClInclude Include="Script\Scene\PlayScene\SkyDoom.h">
+      <Filter>Scene\PlayScene</Filter>
+    </ClInclude>
+    <ClInclude Include="Script\GameObject\GridFloor.h">
+      <Filter>GameObject</Filter>
+    </ClInclude>
+    <ClInclude Include="Script\UI\ChargeUI.h">
       <Filter>UI</Filter>
+    </ClInclude>
+    <ClInclude Include="Script\GameObject\TargetCamera.h">
+      <Filter>GameObject</Filter>
     </ClInclude>
   </ItemGroup>
   <ItemGroup>
@@ -167,15 +176,6 @@
     <ClCompile Include="Script\UI\Moji.cpp">
       <Filter>UI</Filter>
     </ClCompile>
-    <ClCompile Include="Script\Scene\PlayScene.cpp">
-      <Filter>Scene</Filter>
-    </ClCompile>
-    <ClCompile Include="Script\Scene\ResultScene.cpp">
-      <Filter>Scene</Filter>
-    </ClCompile>
-    <ClCompile Include="Script\Scene\TitleScene.cpp">
-      <Filter>Scene</Filter>
-    </ClCompile>
     <ClCompile Include="Script\Manager\CollisionManager.cpp">
       <Filter>Manager</Filter>
     </ClCompile>
@@ -191,52 +191,13 @@
     <ClCompile Include="Script\Manager\ScoreManager.cpp">
       <Filter>Manager</Filter>
     </ClCompile>
-    <ClCompile Include="Script\GameObject\SkyDoom.cpp">
-      <Filter>GameObject</Filter>
-    </ClCompile>
-    <ClCompile Include="Script\GameObject\TargetCamera.cpp">
-      <Filter>GameObject</Filter>
-    </ClCompile>
-    <ClCompile Include="Script\GameObject\WaveMoveEnemy.cpp">
-      <Filter>GameObject</Filter>
-    </ClCompile>
-    <ClCompile Include="Script\GameObject\Bullet.cpp">
-      <Filter>GameObject</Filter>
-    </ClCompile>
-    <ClCompile Include="Script\GameObject\ChargeShot.cpp">
-      <Filter>GameObject</Filter>
-    </ClCompile>
     <ClCompile Include="Script\GameObject\DebugCamera.cpp">
-      <Filter>GameObject</Filter>
-    </ClCompile>
-    <ClCompile Include="Script\GameObject\EnemyBullet.cpp">
-      <Filter>GameObject</Filter>
-    </ClCompile>
-    <ClCompile Include="Script\GameObject\EnemyGenerator.cpp">
       <Filter>GameObject</Filter>
     </ClCompile>
     <ClCompile Include="Script\GameObject\FixedCamera.cpp">
       <Filter>GameObject</Filter>
     </ClCompile>
     <ClCompile Include="Script\GameObject\GameObject.cpp">
-      <Filter>GameObject</Filter>
-    </ClCompile>
-    <ClCompile Include="Script\GameObject\GridFloor.cpp">
-      <Filter>GameObject</Filter>
-    </ClCompile>
-    <ClCompile Include="Script\GameObject\Ground.cpp">
-      <Filter>GameObject</Filter>
-    </ClCompile>
-    <ClCompile Include="Script\GameObject\NormalEnemy.cpp">
-      <Filter>GameObject</Filter>
-    </ClCompile>
-    <ClCompile Include="Script\GameObject\Player.cpp">
-      <Filter>GameObject</Filter>
-    </ClCompile>
-    <ClCompile Include="Script\GameObject\PseudoObject.cpp">
-      <Filter>GameObject</Filter>
-    </ClCompile>
-    <ClCompile Include="Script\GameObject\SideMoveEnemy.cpp">
       <Filter>GameObject</Filter>
     </ClCompile>
     <ClCompile Include="Script\Collider\BoxCollider.cpp">
@@ -251,8 +212,56 @@
     <ClCompile Include="Script\DeviceResources.cpp">
       <Filter>Common</Filter>
     </ClCompile>
-    <ClCompile Include="Script\GameObject\ChargeUI.cpp">
+    <ClCompile Include="Script\Scene\TitleScene\TitleScene.cpp">
+      <Filter>Scene\TitleScene</Filter>
+    </ClCompile>
+    <ClCompile Include="Script\Scene\PlayScene\PlayScene.cpp">
+      <Filter>Scene\PlayScene</Filter>
+    </ClCompile>
+    <ClCompile Include="Script\Scene\ResultScene\ResultScene.cpp">
+      <Filter>Scene\ResultScene</Filter>
+    </ClCompile>
+    <ClCompile Include="Script\Scene\PlayScene\WaveMoveEnemy.cpp">
+      <Filter>Scene\PlayScene</Filter>
+    </ClCompile>
+    <ClCompile Include="Script\Scene\PlayScene\Bullet.cpp">
+      <Filter>Scene\PlayScene</Filter>
+    </ClCompile>
+    <ClCompile Include="Script\Scene\PlayScene\ChargeShot.cpp">
+      <Filter>Scene\PlayScene</Filter>
+    </ClCompile>
+    <ClCompile Include="Script\Scene\PlayScene\EnemyBullet.cpp">
+      <Filter>Scene\PlayScene</Filter>
+    </ClCompile>
+    <ClCompile Include="Script\Scene\PlayScene\EnemyGenerator.cpp">
+      <Filter>Scene\PlayScene</Filter>
+    </ClCompile>
+    <ClCompile Include="Script\Scene\PlayScene\Ground.cpp">
+      <Filter>Scene\PlayScene</Filter>
+    </ClCompile>
+    <ClCompile Include="Script\Scene\PlayScene\NormalEnemy.cpp">
+      <Filter>Scene\PlayScene</Filter>
+    </ClCompile>
+    <ClCompile Include="Script\Scene\PlayScene\Player.cpp">
+      <Filter>Scene\PlayScene</Filter>
+    </ClCompile>
+    <ClCompile Include="Script\Scene\PlayScene\PseudoObject.cpp">
+      <Filter>Scene\PlayScene</Filter>
+    </ClCompile>
+    <ClCompile Include="Script\Scene\PlayScene\SideMoveEnemy.cpp">
+      <Filter>Scene\PlayScene</Filter>
+    </ClCompile>
+    <ClCompile Include="Script\Scene\PlayScene\SkyDoom.cpp">
+      <Filter>Scene\PlayScene</Filter>
+    </ClCompile>
+    <ClCompile Include="Script\GameObject\GridFloor.cpp">
+      <Filter>GameObject</Filter>
+    </ClCompile>
+    <ClCompile Include="Script\UI\ChargeUI.cpp">
       <Filter>UI</Filter>
+    </ClCompile>
+    <ClCompile Include="Script\GameObject\TargetCamera.cpp">
+      <Filter>GameObject</Filter>
     </ClCompile>
   </ItemGroup>
   <ItemGroup>

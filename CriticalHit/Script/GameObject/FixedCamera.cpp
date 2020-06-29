@@ -19,7 +19,6 @@ FixedCamera::~FixedCamera()
 // 更新処理(紐づけるゲームオブジェクト)
 void FixedCamera::Update(GameObject* obj)
 {
-
 	// ビュー座標を算出する
 	DirectX::SimpleMath::Vector3 eye(0.0f, 3.0f, 15.0f);
 	DirectX::SimpleMath::Vector3 target(0.0f, 3.0f, 0.0f);

@@ -30,7 +30,7 @@ void MyEffect::Initialize(float life, DirectX::SimpleMath::Vector3 pos, DirectX:
 
 void MyEffect::Update(DX::StepTimer timer)
 {
-	float time = float(m_timer.GetTotalSeconds());
+	/*float time = float(m_timer.GetTotalSeconds());*/
 	m_timer = timer;
 
 	//m_position = Vector3(cosf(time+m_velocity.x), sinf(time + m_velocity.x),0);
@@ -43,7 +43,7 @@ void MyEffect::Update(DX::StepTimer timer)
 	//	Initialize(m_startLife, m_startPosition, m_startVelocity);
 
 	//}
-	m_life -= m_timer.GetElapsedSeconds();
+	m_life -= static_cast<float>(m_timer.GetElapsedSeconds());
 }
 
 

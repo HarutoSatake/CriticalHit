@@ -131,7 +131,7 @@ void EffectManager::InitializeCorn(float life, DirectX::SimpleMath::Vector3 pos,
 void EffectManager::Update(DX::StepTimer timer)
 {
 	m_timer = timer;
-	m_totalTime += m_timer.GetElapsedSeconds();
+	m_totalTime += static_cast<float>(m_timer.GetElapsedSeconds());
 	for(std::list<MyEffect*>::iterator itr = m_effectList.begin(); itr != m_effectList.end();itr++)
 	{
 		(*itr)->Update(timer);
@@ -140,7 +140,7 @@ void EffectManager::Update(DX::StepTimer timer)
 
 void EffectManager::Render(int type)
 {
-	auto context = m_deviceResources->GetD3DDeviceContext();
+	//auto context = m_deviceResources->GetD3DDeviceContext();
 
 	m_vertex.clear();
 	//マネージャで管理しているエフェクト分イテレータを回す
@@ -201,11 +201,11 @@ void EffectManager::Draw(DirectX::SimpleMath::Matrix world, DirectX::SimpleMath:
 	cbuff.matProj = proj.Transpose();
 	cbuff.matWorld = world.Transpose();
 	//Time		x:経過時間(トータル秒)	y:1Fの経過時間(秒）	z:反復（サインカーブ） w:未使用（暫定で１）
-	cbuff.Time = Vector4(m_totalTime, m_timer.GetElapsedSeconds(), sinf(m_timer.GetTotalSeconds()), 1);
+	cbuff.Time = Vector4(m_totalTime, static_cast<float>(m_timer.GetElapsedSeconds()), sinf(static_cast<float>(m_timer.GetTotalSeconds())), 1);
 
 	auto mouse = Mouse::Get().GetState();
 
-	cbuff.Mouse = Vector4(mouse.x / 800.0f, mouse.y / 600.0f, mouse.leftButton, mouse.y);
+	cbuff.Mouse = Vector4(static_cast<float>(mouse.x) / 800.0f, static_cast<float>(mouse.y) / 600.0f, mouse.leftButton, static_cast<float>(mouse.y));
 	//定数バッファの内容更新
 	context->UpdateSubresource(m_CBuffer.Get(), 0, NULL, &cbuff, 0, 0);
 

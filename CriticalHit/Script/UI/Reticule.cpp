@@ -24,7 +24,7 @@ Reticule::Reticule()
 
 	DirectX::CreateWICTextureFromFile(
 		m_deviceResources->GetD3DDevice(), 
-		L"\Resources\\Textures\\Retucule.png", 
+		L"Resources\\Textures\\Retucule.png", 
 		nullptr, m_texture.GetAddressOf());
 }
 
@@ -36,9 +36,11 @@ Reticule::~Reticule()
 
 void Reticule::Update(float elapsedTime)
 {
+	// 不使用
+	(void)elapsedTime;
 	// マウスの取得
 	DirectX::Mouse::State mouse = DirectX::Mouse::Get().GetState();
-	m_mousePos = DirectX::SimpleMath::Vector2(mouse.x, mouse.y);
+	m_mousePos = DirectX::SimpleMath::Vector2(static_cast<float>(mouse.x),static_cast<float>(mouse.y));
 	Projection* proj = GameContext<Projection>().Get();
 	View* view = GameContext<View>().Get();
 	// ウィンドウサイズを取得
@@ -70,8 +72,8 @@ void Reticule::Render()
 {
 	DirectX::SimpleMath::Matrix world = DirectX::SimpleMath::Matrix::Identity;
 	world *= DirectX::SimpleMath::Matrix::CreateTranslation(m_position);
-	Projection* proj = GameContext<Projection>().Get();
-	View* view = GameContext<View>().Get();
+	/*Projection* proj = GameContext<Projection>().Get();*/
+	/*View* view = GameContext<View>().Get();*/
 
 	/*m_geometricPrimitive->Draw(world, view->GetMatrix(), proj->GetMatrix(),DirectX::Colors::Blue);*/
 	m_mousePos.x = m_mousePos.x - 40.0f;
@@ -82,4 +84,6 @@ void Reticule::Render()
 
 void Reticule::OnCollision(GameObject * object)
 {
+	// 不使用
+	(void)object;
 }

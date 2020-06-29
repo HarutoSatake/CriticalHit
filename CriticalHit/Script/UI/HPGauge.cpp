@@ -11,7 +11,7 @@ HPGauge::HPGauge()
 	, GameObject("UI")
 {
 	DX::DeviceResources* deviceResources = GameContext<DX::DeviceResources>::Get();
-	ID3D11DeviceContext* deviceContext = deviceResources->GetD3DDeviceContext();
+	/*ID3D11DeviceContext* deviceContext = deviceResources->GetD3DDeviceContext();*/
 	
 	// テクスチャの読み込み
 	DirectX::CreateWICTextureFromFile(
@@ -27,8 +27,10 @@ HPGauge::~HPGauge()
 // 更新処理
 void HPGauge::Update(float elapsedTime)
 {
+	// 不使用
+	(void)elapsedTime;
 	// スコアマネージャーからHPを取得
-	m_playerHP = ScoreManager::GetInstance()->GetPlayerHP();
+	m_playerHP = static_cast<float>(ScoreManager::GetInstance()->GetPlayerHP());
 }
 
 // 描画処理
@@ -46,7 +48,8 @@ void HPGauge::Render()
 	GameContext<DirectX::SpriteBatch>::Get()->Draw(m_texture.Get(), DirectX::SimpleMath::Vector2((float)m_x,(float)m_y),&srcRect);
 }
 
-// 当たり判定
 void HPGauge::OnCollision(GameObject * object)
 {
+	// 不使用
+	(void)object;
 }
