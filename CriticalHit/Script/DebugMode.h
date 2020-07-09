@@ -1,3 +1,6 @@
+// デバッグモード制御クラスのヘッダ
+// 佐竹晴登
+
 #pragma once
 class DebugMode
 {

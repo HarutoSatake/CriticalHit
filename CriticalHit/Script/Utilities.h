@@ -1,4 +1,5 @@
-// Utilities = (役に立つもの）　簡易ライブラリ的意味かな
+// 汎用関数群のヘッダ
+// 佐竹晴登
 #pragma once
 
 #include <algorithm>

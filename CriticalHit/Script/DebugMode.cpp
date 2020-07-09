@@ -1,3 +1,5 @@
+// デバッグモード制御クラスのソース
+
 #include "pch.h"
 #include "DebugMode.h"
 

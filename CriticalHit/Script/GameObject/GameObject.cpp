@@ -1,3 +1,7 @@
+// ゲームオブジェクトクラスのソース
+// 佐竹晴登
+
+// ヘッダインクルード
 #include "pch.h"
 
 #include "GameObject.h"

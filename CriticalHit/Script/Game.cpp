@@ -125,13 +125,15 @@ void Game::Update(DX::StepTimer const& timer)
 
     // TODO: Add your game logic here.
     elapsedTime;
-	// elapsedTimeが無意味に渡されてる気がしなくもないが役割が少し違うのでご愛嬌
+	// ゲームシーンマネージャー(ゲームシーン管理)の更新
 	m_pGameSceneManager->Update(elapsedTime);
+	// コリジョンマネージャー(当たり判定管理)の更新
 	m_pCollisionManager->DetectCollision();
+	// 音声管理クラスの更新
 	m_pAdx2le->Update();
-
-	m_pAdx2le->Update();
+	// エフェクトマネージャー(エフェクト管理)の更新
 	GameContext<EffectManager>::Get()->Update(timer);
+	// キーボードトラッカー(DirectXTKのキーボード入力管理)の更新
 	m_pKeyStateTracker->Update(m_pKeyBoard->GetState());
 }
 #pragma endregion
@@ -228,7 +230,7 @@ void Game::OnWindowSizeChanged(int width, int height)
 
     CreateWindowSizeDependentResources();
 
-    // TODO: Game window is being resized.
+    
 }
 
 // Properties
@@ -290,8 +292,6 @@ void Game::CreateDeviceDependentResources()
 // Allocate all memory resources that change on a window SizeChanged event.
 void Game::CreateWindowSizeDependentResources()
 {
-    // TODO: Initialize windows-size dependent objects here.
-
 	// ウィンドウサイズからアスペクト比を算出する。
 	RECT size = m_deviceResources->GetOutputSize();
 	/*float aspectRatio = float(size.right) / float(size.bottom);*/

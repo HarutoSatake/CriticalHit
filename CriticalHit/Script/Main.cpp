@@ -1,6 +1,6 @@
-//
-// Main.cpp
-//
+// メイン関数
+// 佐竹晴登
+// (DirectXTK標準プログラム)
 
 #include "pch.h"
 #include "Game.h"

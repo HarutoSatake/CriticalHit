@@ -1,9 +1,10 @@
-//
-// Game.h
-//
+// ゲームメインクラスのヘッダ
+// 2019/06/18
+// 佐竹晴登
 
 #pragma once
 
+// ヘッダインクルード
 #include "DeviceResources.h"
 #include "StepTimer.h"
 #include "Projection.h"
@@ -59,7 +60,7 @@ private:
     void CreateDeviceDependentResources();
     void CreateWindowSizeDependentResources();
 
-    // Device resources.
+    // デバイスリソース
     std::unique_ptr<DX::DeviceResources>    m_deviceResources;
 
     // Rendering loop timer.

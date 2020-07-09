@@ -1,3 +1,7 @@
+// 汎用関数群のソース
+// 佐竹晴登
+
+// ヘッダインクルード
 #include "pch.h"
 #include <random>
 #include "Utilities.h"
@@ -5,6 +9,9 @@
 using namespace DirectX;
 using namespace DirectX::SimpleMath;
 
+// 処理　：ワールド座標をスクリーン座標に変換する変数
+// 引数　：スクリーンの横幅、スクリーンの縦幅、ビュー行列、射影行列
+// 戻り値：Matrix
 DirectX::SimpleMath::Matrix CreateMatrix_Screen2World(int screen_w, int screen_h, DirectX::SimpleMath::Matrix view, DirectX::SimpleMath::Matrix projection)
 {
 	// ビューポートスケーリング行列を作成

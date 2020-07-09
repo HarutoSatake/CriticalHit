@@ -1,11 +1,9 @@
-﻿//======================================================
-// File Name	: GridFloor.h
-// Summary		: デバッググリッド床
-// Date			: 2019/4/25
-// Author		: Takafumi Ban
-//======================================================
+﻿// デバッグ床クラスのヘッダ
+// 佐竹晴登
+
 #pragma once
 
+// ヘッダインクルード
 #include "CommonStates.h"
 #include "PrimitiveBatch.h"
 #include "Effects.h"
