@@ -1,3 +1,7 @@
+// リザルトシーンのソース
+// 佐竹晴登
+
+// ヘッダインクルード
 #include "pch.h"
 #pragma warning(disable: 4100)
 #include <Keyboard.h>

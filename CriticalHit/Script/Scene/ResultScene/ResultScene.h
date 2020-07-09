@@ -1,6 +1,8 @@
-// プレイシーンのソース
+// リザルトシーンのソース
+
 #pragma once
 
+// ヘッダインクルード
 #include "GameScene.h"
 #include "Moji.h"
 

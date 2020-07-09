@@ -43,7 +43,7 @@ NormalEnemy::NormalEnemy(const DirectX::SimpleMath::Vector3& position)
 	DirectX::SimpleMath::Vector3 size = m_collider->GetSize();
 	m_colliderGeometric = DirectX::GeometricPrimitive::CreateBox(deviceContext, m_scale);
 	
-	m_hitPoint = 10.0f;
+	m_hitPoint = 5.0f;
 	m_count = 0.0f;
 }
 

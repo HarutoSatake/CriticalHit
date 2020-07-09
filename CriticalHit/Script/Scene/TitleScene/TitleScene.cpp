@@ -1,3 +1,7 @@
+// タイトルシーンのソース
+// 佐竹晴登
+
+// ヘッダインクルード
 #include "pch.h"
 #pragma warning(disable: 4100)
 #include "TitleScene.h"
@@ -75,8 +79,6 @@ void TitleScene::Update(float elapedTime)
 
 void TitleScene::Render()
 {
-	//Font::GetInstance()->Print(L"TitleUI", 250, 120, L"ここはタイトルシーンです。");
-	/*Font::GetInstance()->Print(L"Push", 240, 300, L"-- スペースを押してください --");*/
 	m_spriteBatch->Begin();
 	m_spriteBatch->Draw(m_texture.Get(), m_pos);
 	m_spriteBatch->End();

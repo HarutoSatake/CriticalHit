@@ -1,11 +1,13 @@
-// プレイシーンのソース
+// タイトルシーンのヘッダ
+// 佐竹晴登
 #pragma once
-
+// ヘッダインクルード
 #include <SpriteBatch.h>
 #include <SimpleMath.h>
 
 #include "EffectManager.h"
 #include "GameScene.h"
+
 class TitleScene :
 	public GameScene
 {

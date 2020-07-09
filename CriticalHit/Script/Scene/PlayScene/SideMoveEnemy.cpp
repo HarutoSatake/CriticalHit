@@ -43,7 +43,7 @@ SideMoveEnemy::SideMoveEnemy(const DirectX::SimpleMath::Vector3& position,int ty
 
 	// タイプによって方向を指定する
 	m_time = 0.0f;
-	m_hitPoint = 10.0f;
+	m_hitPoint = 5.0f;
 
 	// 当たり判定
 	m_collider = std::make_unique<BoxCollider>(this, m_scale);
@@ -123,7 +123,6 @@ void SideMoveEnemy::Render()
 	world *= DirectX::SimpleMath::Matrix::CreateTranslation(m_position);
 	View* view = GameContext<View>().Get();
 	Projection* proj = GameContext<Projection>().Get();
-	/*m_geometricPrimitive->Draw(world, view->GetMatrix(), proj->GetMatrix(), DirectX::Colors::Red);*/
 	DX::DeviceResources* deviceResources = GameContext<DX::DeviceResources>::Get();
 	ID3D11DeviceContext* deviceContext = deviceResources->GetD3DDeviceContext();
 	DirectX::CommonStates* states = GameContext<DirectX::CommonStates>().Get();
