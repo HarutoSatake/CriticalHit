@@ -1,3 +1,7 @@
+// 追尾用カメラのソース(未使用) 
+// 佐竹晴登
+
+// ヘッダインクルード
 #include "pch.h"
 #include "TargetCamera.h"
 #include "GameContext.h"

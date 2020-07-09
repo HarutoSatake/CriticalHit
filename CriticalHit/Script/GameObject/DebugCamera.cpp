@@ -1,9 +1,5 @@
-﻿//======================================================
-// File Name	: DebugCamera.cpp
-// Summary		: デバッグカメラ
-// Date			: 2019/4/25
-// Author		: Takafumi Ban
-//======================================================
+﻿// デバック用カメラのソース
+// 佐竹晴登
 #include "pch.h"
 #include "DebugCamera.h"
 #include "GameContext.h"

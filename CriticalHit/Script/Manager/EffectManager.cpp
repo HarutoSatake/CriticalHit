@@ -1,3 +1,8 @@
+// シェーダー処理のソース
+// 佐竹晴登
+
+
+// ヘッダインクルード
 #include "pch.h"
 #include "EffectManager.h"
 #include <WICTextureLoader.h>

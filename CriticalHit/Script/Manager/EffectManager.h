@@ -1,5 +1,9 @@
+// エフェクト処理のヘッダ
+// 佐竹晴登
+
 #pragma once
 
+// ヘッダインクルード
 #include "DeviceResources.h"
 #include "StepTimer.h"
 #include <SimpleMath.h>
