@@ -2,51 +2,92 @@
   Resources\FBX\Enemy.FBX
   Resources\FBX\Sea.FBX
   Resources\FBX\SkyDoom.FBX
-  Game.cpp
+  Utilities.cpp
+c:\users\s182108\documents\visual studio 2015\projects\就職作品\criticalhit\criticalhit\souce\utilities.cpp(5): fatal error C1083: プリコンパイル済みヘッダー ファイルを開けません。'Debug\CriticalHit.pch':No such file or directory
+  SpecialUI.cpp
+c:\users\s182108\documents\visual studio 2015\projects\就職作品\criticalhit\criticalhit\souce\ui\specialui.cpp(53): fatal error C1010: プリコンパイル ヘッダーを検索中に不明な EOF が見つかりました。'#include "pch.h"' をソースに追加しましたか?
+  Reticule.cpp
+c:\users\s182108\documents\visual studio 2015\projects\就職作品\criticalhit\criticalhit\souce\ui\reticule.cpp(90): fatal error C1010: プリコンパイル ヘッダーを検索中に不明な EOF が見つかりました。'#include "pch.h"' をソースに追加しましたか?
+  Moji.cpp
+c:\users\s182108\documents\visual studio 2015\projects\就職作品\criticalhit\criticalhit\souce\ui\moji.cpp(54): fatal error C1010: プリコンパイル ヘッダーを検索中に不明な EOF が見つかりました。'#include "pch.h"' をソースに追加しましたか?
+  HPGauge.cpp
+c:\users\s182108\documents\visual studio 2015\projects\就職作品\criticalhit\criticalhit\souce\ui\hpgauge.cpp(56): fatal error C1010: プリコンパイル ヘッダーを検索中に不明な EOF が見つかりました。'#include "pch.h"' をソースに追加しましたか?
+  Font.cpp
+c:\users\s182108\documents\visual studio 2015\projects\就職作品\criticalhit\criticalhit\souce\ui\font.cpp(120): fatal error C1010: プリコンパイル ヘッダーを検索中に不明な EOF が見つかりました。'#include "pch.h"' をソースに追加しましたか?
+  ChargeUI.cpp
+c:\users\s182108\documents\visual studio 2015\projects\就職作品\criticalhit\criticalhit\souce\ui\chargeui.cpp(68): fatal error C1010: プリコンパイル ヘッダーを検索中に不明な EOF が見つかりました。'#include "pch.h"' をソースに追加しましたか?
+  TitleScene.cpp
+c:\users\s182108\documents\visual studio 2015\projects\就職作品\criticalhit\criticalhit\souce\scene\titlescene\titlescene.cpp(102): fatal error C1010: プリコンパイル ヘッダーを検索中に不明な EOF が見つかりました。'#include "pch.h"' をソースに追加しましたか?
+  ResultScene.cpp
+c:\users\s182108\documents\visual studio 2015\projects\就職作品\criticalhit\criticalhit\souce\scene\resultscene\resultscene.cpp(160): fatal error C1010: プリコンパイル ヘッダーを検索中に不明な EOF が見つかりました。'#include "pch.h"' をソースに追加しましたか?
+  WaveMoveEnemy.cpp
+c:\users\s182108\documents\visual studio 2015\projects\就職作品\criticalhit\criticalhit\souce\scene\playscene\wavemoveenemy.cpp(154): fatal error C1010: プリコンパイル ヘッダーを検索中に不明な EOF が見つかりました。'#include "pch.h"' をソースに追加しましたか?
+  SkyDoom.cpp
+c:\users\s182108\documents\visual studio 2015\projects\就職作品\criticalhit\criticalhit\souce\scene\playscene\skydoom.cpp(90): fatal error C1010: プリコンパイル ヘッダーを検索中に不明な EOF が見つかりました。'#include "pch.h"' をソースに追加しましたか?
+  SideMoveEnemy.cpp
+c:\users\s182108\documents\visual studio 2015\projects\就職作品\criticalhit\criticalhit\souce\scene\playscene\sidemoveenemy.cpp(146): fatal error C1010: プリコンパイル ヘッダーを検索中に不明な EOF が見つかりました。'#include "pch.h"' をソースに追加しましたか?
+  PseudoObject.cpp
+c:\users\s182108\documents\visual studio 2015\projects\就職作品\criticalhit\criticalhit\souce\scene\playscene\pseudoobject.cpp(90): fatal error C1010: プリコンパイル ヘッダーを検索中に不明な EOF が見つかりました。'#include "pch.h"' をソースに追加しましたか?
+  PlayScene.cpp
+c:\users\s182108\documents\visual studio 2015\projects\就職作品\criticalhit\criticalhit\souce\scene\playscene\playscene.cpp(308): fatal error C1010: プリコンパイル ヘッダーを検索中に不明な EOF が見つかりました。'#include "pch.h"' をソースに追加しましたか?
+  Player.cpp
+c:\users\s182108\documents\visual studio 2015\projects\就職作品\criticalhit\criticalhit\souce\scene\playscene\player.cpp(477): fatal error C1010: プリコンパイル ヘッダーを検索中に不明な EOF が見つかりました。'#include "pch.h"' をソースに追加しましたか?
+  NormalEnemy.cpp
+c:\users\s182108\documents\visual studio 2015\projects\就職作品\criticalhit\criticalhit\souce\scene\playscene\normalenemy.cpp(153): fatal error C1010: プリコンパイル ヘッダーを検索中に不明な EOF が見つかりました。'#include "pch.h"' をソースに追加しましたか?
+  Ground.cpp
+c:\users\s182108\documents\visual studio 2015\projects\就職作品\criticalhit\criticalhit\souce\scene\playscene\ground.cpp(92): fatal error C1010: プリコンパイル ヘッダーを検索中に不明な EOF が見つかりました。'#include "pch.h"' をソースに追加しましたか?
+  EnemyGenerator.cpp
+c:\users\s182108\documents\visual studio 2015\projects\就職作品\criticalhit\criticalhit\souce\scene\playscene\enemygenerator.cpp(116): fatal error C1010: プリコンパイル ヘッダーを検索中に不明な EOF が見つかりました。'#include "pch.h"' をソースに追加しましたか?
+  EnemyBullet.cpp
+c:\users\s182108\documents\visual studio 2015\projects\就職作品\criticalhit\criticalhit\souce\scene\playscene\enemybullet.cpp(59): fatal error C1010: プリコンパイル ヘッダーを検索中に不明な EOF が見つかりました。'#include "pch.h"' をソースに追加しましたか?
+  ChargeShot.cpp
+c:\users\s182108\documents\visual studio 2015\projects\就職作品\criticalhit\criticalhit\souce\scene\playscene\chargeshot.cpp(72): fatal error C1010: プリコンパイル ヘッダーを検索中に不明な EOF が見つかりました。'#include "pch.h"' をソースに追加しましたか?
   コードを生成中...
   コンパイル中...
-  Main.cpp
-  コードを生成中...
-  スキップ中... (関連する変更は検出されませんでした)
-  Utilities.cpp
-  SpecialUI.cpp
-  Reticule.cpp
-  Moji.cpp
-  HPGauge.cpp
-  Font.cpp
-  ChargeUI.cpp
-  TitleScene.cpp
-  ResultScene.cpp
-  WaveMoveEnemy.cpp
-  SkyDoom.cpp
-  SideMoveEnemy.cpp
-  PseudoObject.cpp
-  Player.cpp
-  PlayScene.cpp
-  NormalEnemy.cpp
-  Ground.cpp
-  EnemyGenerator.cpp
-  EnemyBullet.cpp
-  ChargeShot.cpp
   Bullet.cpp
+c:\users\s182108\documents\visual studio 2015\projects\就職作品\criticalhit\criticalhit\souce\scene\playscene\bullet.cpp(127): fatal error C1010: プリコンパイル ヘッダーを検索中に不明な EOF が見つかりました。'#include "pch.h"' をソースに追加しましたか?
+  pch.cpp
+c:\users\s182108\documents\visual studio 2015\projects\就職作品\criticalhit\criticalhit\souce\pch.cpp(6): fatal error C1083: プリコンパイル済みヘッダー ファイルを開けません。'Debug\CriticalHit.pch':No such file or directory
   MyEffect.cpp
+c:\users\s182108\documents\visual studio 2015\projects\就職作品\criticalhit\criticalhit\souce\myeffect.cpp(5): fatal error C1083: プリコンパイル済みヘッダー ファイルを開けません。'Debug\CriticalHit.pch':No such file or directory
   ScoreManager.cpp
+c:\users\s182108\documents\visual studio 2015\projects\就職作品\criticalhit\criticalhit\souce\manager\scoremanager.cpp(77): fatal error C1010: プリコンパイル ヘッダーを検索中に不明な EOF が見つかりました。'#include "pch.h"' をソースに追加しましたか?
   GameSceneManager.cpp
+c:\users\s182108\documents\visual studio 2015\projects\就職作品\criticalhit\criticalhit\souce\manager\gamescenemanager.cpp(100): fatal error C1010: プリコンパイル ヘッダーを検索中に不明な EOF が見つかりました。'#include "pch.h"' をソースに追加しましたか?
   GameObjectManager.cpp
+c:\users\s182108\documents\visual studio 2015\projects\就職作品\criticalhit\criticalhit\souce\manager\gameobjectmanager.cpp(133): fatal error C1010: プリコンパイル ヘッダーを検索中に不明な EOF が見つかりました。'#include "pch.h"' をソースに追加しましたか?
   EffectManager.cpp
+c:\users\s182108\documents\visual studio 2015\projects\就職作品\criticalhit\criticalhit\souce\manager\effectmanager.cpp(339): fatal error C1010: プリコンパイル ヘッダーを検索中に不明な EOF が見つかりました。'#include "pch.h"' をソースに追加しましたか?
   CollisionManager.cpp
+c:\users\s182108\documents\visual studio 2015\projects\就職作品\criticalhit\criticalhit\souce\manager\collisionmanager.cpp(129): fatal error C1010: プリコンパイル ヘッダーを検索中に不明な EOF が見つかりました。'#include "pch.h"' をソースに追加しましたか?
+  Main.cpp
+c:\users\s182108\documents\visual studio 2015\projects\就職作品\criticalhit\criticalhit\souce\main.cpp(5): fatal error C1083: プリコンパイル済みヘッダー ファイルを開けません。'Debug\CriticalHit.pch':No such file or directory
   TargetCamera.cpp
+c:\users\s182108\documents\visual studio 2015\projects\就職作品\criticalhit\criticalhit\souce\gameobject\targetcamera.cpp(73): fatal error C1010: プリコンパイル ヘッダーを検索中に不明な EOF が見つかりました。'#include "pch.h"' をソースに追加しましたか?
   GridFloor.cpp
+c:\users\s182108\documents\visual studio 2015\projects\就職作品\criticalhit\criticalhit\souce\gameobject\gridfloor.cpp(91): fatal error C1010: プリコンパイル ヘッダーを検索中に不明な EOF が見つかりました。'#include "pch.h"' をソースに追加しましたか?
   GameObject.cpp
+c:\users\s182108\documents\visual studio 2015\projects\就職作品\criticalhit\criticalhit\souce\gameobject\gameobject.cpp(25): fatal error C1010: プリコンパイル ヘッダーを検索中に不明な EOF が見つかりました。'#include "pch.h"' をソースに追加しましたか?
   FixedCamera.cpp
+c:\users\s182108\documents\visual studio 2015\projects\就職作品\criticalhit\criticalhit\souce\gameobject\fixedcamera.cpp(37): fatal error C1010: プリコンパイル ヘッダーを検索中に不明な EOF が見つかりました。'#include "pch.h"' をソースに追加しましたか?
   DebugCamera.cpp
+c:\users\s182108\documents\visual studio 2015\projects\就職作品\criticalhit\criticalhit\souce\gameobject\debugcamera.cpp(99): fatal error C1010: プリコンパイル ヘッダーを検索中に不明な EOF が見つかりました。'#include "pch.h"' をソースに追加しましたか?
+  Game.cpp
+c:\users\s182108\documents\visual studio 2015\projects\就職作品\criticalhit\criticalhit\souce\game.cpp(5): fatal error C1083: プリコンパイル済みヘッダー ファイルを開けません。'Debug\CriticalHit.pch':No such file or directory
   DeviceResources.cpp
+c:\users\s182108\documents\visual studio 2015\projects\就職作品\criticalhit\criticalhit\souce\deviceresources.cpp(6): fatal error C1083: プリコンパイル済みヘッダー ファイルを開けません。'Debug\CriticalHit.pch':No such file or directory
   DebugMode.cpp
+c:\users\s182108\documents\visual studio 2015\projects\就職作品\criticalhit\criticalhit\souce\debugmode.cpp(3): fatal error C1083: プリコンパイル済みヘッダー ファイルを開けません。'Debug\CriticalHit.pch':No such file or directory
   SphereCollider.cpp
+c:\users\s182108\documents\visual studio 2015\projects\就職作品\criticalhit\criticalhit\souce\collider\spherecollider.cpp(20): fatal error C1010: プリコンパイル ヘッダーを検索中に不明な EOF が見つかりました。'#include "pch.h"' をソースに追加しましたか?
   Collider.cpp
+c:\users\s182108\documents\visual studio 2015\projects\就職作品\criticalhit\criticalhit\souce\collider\collider.cpp(32): fatal error C1010: プリコンパイル ヘッダーを検索中に不明な EOF が見つかりました。'#include "pch.h"' をソースに追加しましたか?
   BoxCollider.cpp
+c:\users\s182108\documents\visual studio 2015\projects\就職作品\criticalhit\criticalhit\souce\collider\boxcollider.cpp(24): fatal error C1010: プリコンパイル ヘッダーを検索中に不明な EOF が見つかりました。'#include "pch.h"' をソースに追加しましたか?
+  コードを生成中...
+  コンパイル中...
   BinaryFile.cpp
+c:\users\s182108\documents\visual studio 2015\projects\就職作品\criticalhit\criticalhit\souce\binaryfile.cpp(1): fatal error C1083: プリコンパイル済みヘッダー ファイルを開けません。'Debug\CriticalHit.pch':No such file or directory
   Adx2Le.cpp
-  CriticalHit.vcxproj -> C:\Users\s182108\Documents\Visual Studio 2015\Projects\就職作品\CriticalHit\Debug\CriticalHit.exe
-  CriticalHit.vcxproj -> C:\Users\s182108\Documents\Visual Studio 2015\Projects\就職作品\CriticalHit\Debug\CriticalHit.pdb (Full PDB)
-  0 個のファイルをコピーしました
+c:\users\s182108\documents\visual studio 2015\projects\就職作品\criticalhit\criticalhit\souce\adx2le.cpp(1): fatal error C1083: プリコンパイル済みヘッダー ファイルを開けません。'Debug\CriticalHit.pch':No such file or directory
+  コードを生成中...

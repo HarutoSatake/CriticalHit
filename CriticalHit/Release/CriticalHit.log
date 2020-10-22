@@ -2,15 +2,81 @@
   Resources\FBX\Enemy.FBX
   Resources\FBX\Sea.FBX
   Resources\FBX\SkyDoom.FBX
+  Adx2Le.cpp
+  BinaryFile.cpp
+  BoxCollider.cpp
+Souce\Collider\BoxCollider.cpp(24): fatal error C1010: プリコンパイル ヘッダーを検索中に不明な EOF が見つかりました。'#include "pch.h"' をソースに追加しましたか?
+  Collider.cpp
+Souce\Collider\Collider.cpp(32): fatal error C1010: プリコンパイル ヘッダーを検索中に不明な EOF が見つかりました。'#include "pch.h"' をソースに追加しましたか?
+  SphereCollider.cpp
+Souce\Collider\SphereCollider.cpp(20): fatal error C1010: プリコンパイル ヘッダーを検索中に不明な EOF が見つかりました。'#include "pch.h"' をソースに追加しましたか?
+  DebugMode.cpp
+  DeviceResources.cpp
+  Game.cpp
+  DebugCamera.cpp
+Souce\GameObject\DebugCamera.cpp(99): fatal error C1010: プリコンパイル ヘッダーを検索中に不明な EOF が見つかりました。'#include "pch.h"' をソースに追加しましたか?
+  FixedCamera.cpp
+Souce\GameObject\FixedCamera.cpp(37): fatal error C1010: プリコンパイル ヘッダーを検索中に不明な EOF が見つかりました。'#include "pch.h"' をソースに追加しましたか?
+  GameObject.cpp
+Souce\GameObject\GameObject.cpp(25): fatal error C1010: プリコンパイル ヘッダーを検索中に不明な EOF が見つかりました。'#include "pch.h"' をソースに追加しましたか?
+  GridFloor.cpp
+Souce\GameObject\GridFloor.cpp(91): fatal error C1010: プリコンパイル ヘッダーを検索中に不明な EOF が見つかりました。'#include "pch.h"' をソースに追加しましたか?
+  TargetCamera.cpp
+Souce\GameObject\TargetCamera.cpp(73): fatal error C1010: プリコンパイル ヘッダーを検索中に不明な EOF が見つかりました。'#include "pch.h"' をソースに追加しましたか?
+  Main.cpp
+  CollisionManager.cpp
+Souce\Manager\CollisionManager.cpp(129): fatal error C1010: プリコンパイル ヘッダーを検索中に不明な EOF が見つかりました。'#include "pch.h"' をソースに追加しましたか?
+  EffectManager.cpp
+Souce\Manager\EffectManager.cpp(339): fatal error C1010: プリコンパイル ヘッダーを検索中に不明な EOF が見つかりました。'#include "pch.h"' をソースに追加しましたか?
+  GameObjectManager.cpp
+Souce\Manager\GameObjectManager.cpp(133): fatal error C1010: プリコンパイル ヘッダーを検索中に不明な EOF が見つかりました。'#include "pch.h"' をソースに追加しましたか?
+  GameSceneManager.cpp
+Souce\Manager\GameSceneManager.cpp(100): fatal error C1010: プリコンパイル ヘッダーを検索中に不明な EOF が見つかりました。'#include "pch.h"' をソースに追加しましたか?
+  ScoreManager.cpp
+Souce\Manager\ScoreManager.cpp(77): fatal error C1010: プリコンパイル ヘッダーを検索中に不明な EOF が見つかりました。'#include "pch.h"' をソースに追加しましたか?
+  MyEffect.cpp
+  コンパイル中...
+  pch.cpp
+Souce\pch.cpp(6): fatal error C1854: オブジェクト ファイルでプリコンパイル済みヘッダー の作成中は、情報を上書きできません: 'c:\users\s182108\documents\visual studio 2015\projects\就職作品\criticalhit\criticalhit\release\pch.obj'
+  Bullet.cpp
+Souce\Scene\PlayScene\Bullet.cpp(127): fatal error C1010: プリコンパイル ヘッダーを検索中に不明な EOF が見つかりました。'#include "pch.h"' をソースに追加しましたか?
+  ChargeShot.cpp
+Souce\Scene\PlayScene\ChargeShot.cpp(72): fatal error C1010: プリコンパイル ヘッダーを検索中に不明な EOF が見つかりました。'#include "pch.h"' をソースに追加しましたか?
+  EnemyBullet.cpp
+Souce\Scene\PlayScene\EnemyBullet.cpp(59): fatal error C1010: プリコンパイル ヘッダーを検索中に不明な EOF が見つかりました。'#include "pch.h"' をソースに追加しましたか?
+  EnemyGenerator.cpp
+Souce\Scene\PlayScene\EnemyGenerator.cpp(116): fatal error C1010: プリコンパイル ヘッダーを検索中に不明な EOF が見つかりました。'#include "pch.h"' をソースに追加しましたか?
+  Ground.cpp
+Souce\Scene\PlayScene\Ground.cpp(92): fatal error C1010: プリコンパイル ヘッダーを検索中に不明な EOF が見つかりました。'#include "pch.h"' をソースに追加しましたか?
   NormalEnemy.cpp
+Souce\Scene\PlayScene\NormalEnemy.cpp(153): fatal error C1010: プリコンパイル ヘッダーを検索中に不明な EOF が見つかりました。'#include "pch.h"' をソースに追加しましたか?
+  Player.cpp
+Souce\Scene\PlayScene\Player.cpp(477): fatal error C1010: プリコンパイル ヘッダーを検索中に不明な EOF が見つかりました。'#include "pch.h"' をソースに追加しましたか?
+  PlayScene.cpp
+Souce\Scene\PlayScene\PlayScene.cpp(308): fatal error C1010: プリコンパイル ヘッダーを検索中に不明な EOF が見つかりました。'#include "pch.h"' をソースに追加しましたか?
+  PseudoObject.cpp
+Souce\Scene\PlayScene\PseudoObject.cpp(90): fatal error C1010: プリコンパイル ヘッダーを検索中に不明な EOF が見つかりました。'#include "pch.h"' をソースに追加しましたか?
   SideMoveEnemy.cpp
+Souce\Scene\PlayScene\SideMoveEnemy.cpp(146): fatal error C1010: プリコンパイル ヘッダーを検索中に不明な EOF が見つかりました。'#include "pch.h"' をソースに追加しましたか?
+  SkyDoom.cpp
+Souce\Scene\PlayScene\SkyDoom.cpp(90): fatal error C1010: プリコンパイル ヘッダーを検索中に不明な EOF が見つかりました。'#include "pch.h"' をソースに追加しましたか?
   WaveMoveEnemy.cpp
-     ライブラリ C:\Users\s182108\Documents\Visual Studio 2015\Projects\就職作品\CriticalHit\Release\CriticalHit.lib とオブジェクト C:\Users\s182108\Documents\Visual Studio 2015\Projects\就職作品\CriticalHit\Release\CriticalHit.exp を作成中
-  コード生成しています。
-  4 of 3930 functions ( 0.1%) were compiled, the rest were copied from previous compilation.
-    0 functions were new in current compilation
-    3 functions had inline decision re-evaluated but remain unchanged
-  コード生成が終了しました。
-  CriticalHit.vcxproj -> C:\Users\s182108\Documents\Visual Studio 2015\Projects\就職作品\CriticalHit\Release\CriticalHit.exe
-  CriticalHit.vcxproj -> C:\Users\s182108\Documents\Visual Studio 2015\Projects\就職作品\CriticalHit\Release\CriticalHit.pdb (Full PDB)
-  0 個のファイルをコピーしました
+Souce\Scene\PlayScene\WaveMoveEnemy.cpp(154): fatal error C1010: プリコンパイル ヘッダーを検索中に不明な EOF が見つかりました。'#include "pch.h"' をソースに追加しましたか?
+  ResultScene.cpp
+Souce\Scene\ResultScene\ResultScene.cpp(160): fatal error C1010: プリコンパイル ヘッダーを検索中に不明な EOF が見つかりました。'#include "pch.h"' をソースに追加しましたか?
+  TitleScene.cpp
+Souce\Scene\TitleScene\TitleScene.cpp(102): fatal error C1010: プリコンパイル ヘッダーを検索中に不明な EOF が見つかりました。'#include "pch.h"' をソースに追加しましたか?
+  ChargeUI.cpp
+Souce\UI\ChargeUI.cpp(68): fatal error C1010: プリコンパイル ヘッダーを検索中に不明な EOF が見つかりました。'#include "pch.h"' をソースに追加しましたか?
+  Font.cpp
+Souce\UI\Font.cpp(120): fatal error C1010: プリコンパイル ヘッダーを検索中に不明な EOF が見つかりました。'#include "pch.h"' をソースに追加しましたか?
+  HPGauge.cpp
+Souce\UI\HPGauge.cpp(56): fatal error C1010: プリコンパイル ヘッダーを検索中に不明な EOF が見つかりました。'#include "pch.h"' をソースに追加しましたか?
+  Moji.cpp
+Souce\UI\Moji.cpp(54): fatal error C1010: プリコンパイル ヘッダーを検索中に不明な EOF が見つかりました。'#include "pch.h"' をソースに追加しましたか?
+  Reticule.cpp
+Souce\UI\Reticule.cpp(90): fatal error C1010: プリコンパイル ヘッダーを検索中に不明な EOF が見つかりました。'#include "pch.h"' をソースに追加しましたか?
+  コンパイル中...
+  SpecialUI.cpp
+Souce\UI\SpecialUI.cpp(53): fatal error C1010: プリコンパイル ヘッダーを検索中に不明な EOF が見つかりました。'#include "pch.h"' をソースに追加しましたか?
+  Utilities.cpp

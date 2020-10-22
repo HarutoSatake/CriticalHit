@@ -1,268 +1,34 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
   <ItemGroup>
-    <Filter Include="Common">
-      <UniqueIdentifier>f43069de-a4c7-4ecd-b181-510bd44cabb7</UniqueIdentifier>
-    </Filter>
     <Filter Include="Assets">
       <UniqueIdentifier>afc7aba8-c510-4a99-9f4c-fde0437aabcc</UniqueIdentifier>
       <Extensions>ico;cur;bmp;dds;dlg;fbx;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tga;tiff;tif;png;wav;mfcribbon-ms</Extensions>
     </Filter>
-    <Filter Include="Collider">
-      <UniqueIdentifier>{53accbaf-d307-4978-b1c0-3e9a5582c252}</UniqueIdentifier>
-    </Filter>
-    <Filter Include="GameObject">
-      <UniqueIdentifier>{c7939431-2961-4032-a59c-7c7cb728f22e}</UniqueIdentifier>
-    </Filter>
     <Filter Include="Manager">
-      <UniqueIdentifier>{67c5f01a-cc66-4e1e-8b74-937908eae362}</UniqueIdentifier>
+      <UniqueIdentifier>{a2c74adc-3cce-473c-b500-0d0d974a6c67}</UniqueIdentifier>
     </Filter>
     <Filter Include="Scene">
-      <UniqueIdentifier>{168894e1-6bc2-4b46-ae9c-0a48a85a7e82}</UniqueIdentifier>
+      <UniqueIdentifier>{49bf70fb-673a-49b1-b95c-32080f7b8009}</UniqueIdentifier>
     </Filter>
     <Filter Include="UI">
-      <UniqueIdentifier>{803e8a7c-17da-4bca-9783-8010a8245b93}</UniqueIdentifier>
+      <UniqueIdentifier>{c73042a6-4c33-42d9-a27c-08ba63c8eb34}</UniqueIdentifier>
     </Filter>
-    <Filter Include="Scene\PlayScene">
-      <UniqueIdentifier>{46c62a4c-cb9b-48fe-a3a3-a1f4549c0652}</UniqueIdentifier>
-    </Filter>
-    <Filter Include="Scene\TitleScene">
-      <UniqueIdentifier>{36eab923-b428-42cb-8734-c5e00696a9f1}</UniqueIdentifier>
+    <Filter Include="GameObject">
+      <UniqueIdentifier>{5aa4c8d4-8cfa-49aa-8686-88d7dff520b3}</UniqueIdentifier>
     </Filter>
     <Filter Include="Scene\ResultScene">
-      <UniqueIdentifier>{da702e57-65ad-4b02-b380-74192e86e71f}</UniqueIdentifier>
+      <UniqueIdentifier>{f26bbb35-f30d-4897-b943-59e47db4c0cd}</UniqueIdentifier>
     </Filter>
-  </ItemGroup>
-  <ItemGroup>
-    <ClInclude Include="Script\Adx2Le.h" />
-    <ClInclude Include="Script\BinaryFile.h" />
-    <ClInclude Include="Script\DebugMode.h" />
-    <ClInclude Include="Script\Game.h" />
-    <ClInclude Include="Script\GameContext.h" />
-    <ClInclude Include="Script\GameScene.h" />
-    <ClInclude Include="Script\Myeffect.h" />
-    <ClInclude Include="Script\pch.h" />
-    <ClInclude Include="Script\picojson.h" />
-    <ClInclude Include="Script\Projection.h" />
-    <ClInclude Include="Script\Utilities.h" />
-    <ClInclude Include="Script\View.h" />
-    <ClInclude Include="Script\UI\Moji.h">
-      <Filter>UI</Filter>
-    </ClInclude>
-    <ClInclude Include="Script\UI\Reticule.h">
-      <Filter>UI</Filter>
-    </ClInclude>
-    <ClInclude Include="Script\UI\SpecialUI.h">
-      <Filter>UI</Filter>
-    </ClInclude>
-    <ClInclude Include="Script\UI\Font.h">
-      <Filter>UI</Filter>
-    </ClInclude>
-    <ClInclude Include="Script\UI\HPGauge.h">
-      <Filter>UI</Filter>
-    </ClInclude>
-    <ClInclude Include="Script\Manager\CollisionManager.h">
-      <Filter>Manager</Filter>
-    </ClInclude>
-    <ClInclude Include="Script\Manager\EffectManager.h">
-      <Filter>Manager</Filter>
-    </ClInclude>
-    <ClInclude Include="Script\Manager\GameObjectManager.h">
-      <Filter>Manager</Filter>
-    </ClInclude>
-    <ClInclude Include="Script\Manager\GameSceneManager.h">
-      <Filter>Manager</Filter>
-    </ClInclude>
-    <ClInclude Include="Script\Manager\ScoreManager.h">
-      <Filter>Manager</Filter>
-    </ClInclude>
-    <ClInclude Include="Script\GameObject\DebugCamera.h">
-      <Filter>GameObject</Filter>
-    </ClInclude>
-    <ClInclude Include="Script\GameObject\FixedCamera.h">
-      <Filter>GameObject</Filter>
-    </ClInclude>
-    <ClInclude Include="Script\GameObject\GameObject.h">
-      <Filter>GameObject</Filter>
-    </ClInclude>
-    <ClInclude Include="Script\Collider\BoxCollider.h">
-      <Filter>Collider</Filter>
-    </ClInclude>
-    <ClInclude Include="Script\Collider\Collider.h">
-      <Filter>Collider</Filter>
-    </ClInclude>
-    <ClInclude Include="Script\Collider\SphereCollider.h">
-      <Filter>Collider</Filter>
-    </ClInclude>
-    <ClInclude Include="Script\DeviceResources.h">
-      <Filter>Common</Filter>
-    </ClInclude>
-    <ClInclude Include="Script\StepTimer.h">
-      <Filter>Common</Filter>
-    </ClInclude>
-    <ClInclude Include="Script\Scene\TitleScene\TitleScene.h">
-      <Filter>Scene\TitleScene</Filter>
-    </ClInclude>
-    <ClInclude Include="Script\Scene\PlayScene\PlayScene.h">
-      <Filter>Scene\PlayScene</Filter>
-    </ClInclude>
-    <ClInclude Include="Script\Scene\ResultScene\ResultScene.h">
-      <Filter>Scene\ResultScene</Filter>
-    </ClInclude>
-    <ClInclude Include="Script\Scene\PlayScene\WaveMoveEnemy.h">
-      <Filter>Scene\PlayScene</Filter>
-    </ClInclude>
-    <ClInclude Include="Script\Scene\PlayScene\Bullet.h">
-      <Filter>Scene\PlayScene</Filter>
-    </ClInclude>
-    <ClInclude Include="Script\Scene\PlayScene\ChargeShot.h">
-      <Filter>Scene\PlayScene</Filter>
-    </ClInclude>
-    <ClInclude Include="Script\Scene\PlayScene\EnemyBullet.h">
-      <Filter>Scene\PlayScene</Filter>
-    </ClInclude>
-    <ClInclude Include="Script\Scene\PlayScene\EnemyGenerator.h">
-      <Filter>Scene\PlayScene</Filter>
-    </ClInclude>
-    <ClInclude Include="Script\Scene\PlayScene\Ground.h">
-      <Filter>Scene\PlayScene</Filter>
-    </ClInclude>
-    <ClInclude Include="Script\Scene\PlayScene\NormalEnemy.h">
-      <Filter>Scene\PlayScene</Filter>
-    </ClInclude>
-    <ClInclude Include="Script\Scene\PlayScene\Player.h">
-      <Filter>Scene\PlayScene</Filter>
-    </ClInclude>
-    <ClInclude Include="Script\Scene\PlayScene\PseudoObject.h">
-      <Filter>Scene\PlayScene</Filter>
-    </ClInclude>
-    <ClInclude Include="Script\Scene\PlayScene\SideMoveEnemy.h">
-      <Filter>Scene\PlayScene</Filter>
-    </ClInclude>
-    <ClInclude Include="Script\Scene\PlayScene\SkyDoom.h">
-      <Filter>Scene\PlayScene</Filter>
-    </ClInclude>
-    <ClInclude Include="Script\GameObject\GridFloor.h">
-      <Filter>GameObject</Filter>
-    </ClInclude>
-    <ClInclude Include="Script\UI\ChargeUI.h">
-      <Filter>UI</Filter>
-    </ClInclude>
-    <ClInclude Include="Script\GameObject\TargetCamera.h">
-      <Filter>GameObject</Filter>
-    </ClInclude>
-  </ItemGroup>
-  <ItemGroup>
-    <ClCompile Include="Script\Adx2Le.cpp" />
-    <ClCompile Include="Script\BinaryFile.cpp" />
-    <ClCompile Include="Script\DebugMode.cpp" />
-    <ClCompile Include="Script\Game.cpp" />
-    <ClCompile Include="Script\Main.cpp" />
-    <ClCompile Include="Script\MyEffect.cpp" />
-    <ClCompile Include="Script\pch.cpp" />
-    <ClCompile Include="Script\Utilities.cpp" />
-    <ClCompile Include="Script\UI\Reticule.cpp">
-      <Filter>UI</Filter>
-    </ClCompile>
-    <ClCompile Include="Script\UI\SpecialUI.cpp">
-      <Filter>UI</Filter>
-    </ClCompile>
-    <ClCompile Include="Script\UI\Font.cpp">
-      <Filter>UI</Filter>
-    </ClCompile>
-    <ClCompile Include="Script\UI\HPGauge.cpp">
-      <Filter>UI</Filter>
-    </ClCompile>
-    <ClCompile Include="Script\UI\Moji.cpp">
-      <Filter>UI</Filter>
-    </ClCompile>
-    <ClCompile Include="Script\Manager\CollisionManager.cpp">
-      <Filter>Manager</Filter>
-    </ClCompile>
-    <ClCompile Include="Script\Manager\EffectManager.cpp">
-      <Filter>Manager</Filter>
-    </ClCompile>
-    <ClCompile Include="Script\Manager\GameObjectManager.cpp">
-      <Filter>Manager</Filter>
-    </ClCompile>
-    <ClCompile Include="Script\Manager\GameSceneManager.cpp">
-      <Filter>Manager</Filter>
-    </ClCompile>
-    <ClCompile Include="Script\Manager\ScoreManager.cpp">
-      <Filter>Manager</Filter>
-    </ClCompile>
-    <ClCompile Include="Script\GameObject\DebugCamera.cpp">
-      <Filter>GameObject</Filter>
-    </ClCompile>
-    <ClCompile Include="Script\GameObject\FixedCamera.cpp">
-      <Filter>GameObject</Filter>
-    </ClCompile>
-    <ClCompile Include="Script\GameObject\GameObject.cpp">
-      <Filter>GameObject</Filter>
-    </ClCompile>
-    <ClCompile Include="Script\Collider\BoxCollider.cpp">
-      <Filter>Collider</Filter>
-    </ClCompile>
-    <ClCompile Include="Script\Collider\Collider.cpp">
-      <Filter>Collider</Filter>
-    </ClCompile>
-    <ClCompile Include="Script\Collider\SphereCollider.cpp">
-      <Filter>Collider</Filter>
-    </ClCompile>
-    <ClCompile Include="Script\DeviceResources.cpp">
-      <Filter>Common</Filter>
-    </ClCompile>
-    <ClCompile Include="Script\Scene\TitleScene\TitleScene.cpp">
-      <Filter>Scene\TitleScene</Filter>
-    </ClCompile>
-    <ClCompile Include="Script\Scene\PlayScene\PlayScene.cpp">
-      <Filter>Scene\PlayScene</Filter>
-    </ClCompile>
-    <ClCompile Include="Script\Scene\ResultScene\ResultScene.cpp">
-      <Filter>Scene\ResultScene</Filter>
-    </ClCompile>
-    <ClCompile Include="Script\Scene\PlayScene\WaveMoveEnemy.cpp">
-      <Filter>Scene\PlayScene</Filter>
-    </ClCompile>
-    <ClCompile Include="Script\Scene\PlayScene\Bullet.cpp">
-      <Filter>Scene\PlayScene</Filter>
-    </ClCompile>
-    <ClCompile Include="Script\Scene\PlayScene\ChargeShot.cpp">
-      <Filter>Scene\PlayScene</Filter>
-    </ClCompile>
-    <ClCompile Include="Script\Scene\PlayScene\EnemyBullet.cpp">
-      <Filter>Scene\PlayScene</Filter>
-    </ClCompile>
-    <ClCompile Include="Script\Scene\PlayScene\EnemyGenerator.cpp">
-      <Filter>Scene\PlayScene</Filter>
-    </ClCompile>
-    <ClCompile Include="Script\Scene\PlayScene\Ground.cpp">
-      <Filter>Scene\PlayScene</Filter>
-    </ClCompile>
-    <ClCompile Include="Script\Scene\PlayScene\NormalEnemy.cpp">
-      <Filter>Scene\PlayScene</Filter>
-    </ClCompile>
-    <ClCompile Include="Script\Scene\PlayScene\Player.cpp">
-      <Filter>Scene\PlayScene</Filter>
-    </ClCompile>
-    <ClCompile Include="Script\Scene\PlayScene\PseudoObject.cpp">
-      <Filter>Scene\PlayScene</Filter>
-    </ClCompile>
-    <ClCompile Include="Script\Scene\PlayScene\SideMoveEnemy.cpp">
-      <Filter>Scene\PlayScene</Filter>
-    </ClCompile>
-    <ClCompile Include="Script\Scene\PlayScene\SkyDoom.cpp">
-      <Filter>Scene\PlayScene</Filter>
-    </ClCompile>
-    <ClCompile Include="Script\GameObject\GridFloor.cpp">
-      <Filter>GameObject</Filter>
-    </ClCompile>
-    <ClCompile Include="Script\UI\ChargeUI.cpp">
-      <Filter>UI</Filter>
-    </ClCompile>
-    <ClCompile Include="Script\GameObject\TargetCamera.cpp">
-      <Filter>GameObject</Filter>
-    </ClCompile>
+    <Filter Include="Scene\TitleScene">
+      <UniqueIdentifier>{ffdde2e3-d4c5-47d5-9758-9d5aa69218b3}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Scene\PlayScene">
+      <UniqueIdentifier>{bdd7d288-db9d-4ed3-be59-55d2925acabb}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Colider">
+      <UniqueIdentifier>{2551b559-e674-4269-aaae-a64791398273}</UniqueIdentifier>
+    </Filter>
   </ItemGroup>
   <ItemGroup>
     <Image Include="directx.ico">
@@ -287,5 +53,230 @@
     <MeshContentTask Include="Resources\FBX\SkyDoom.FBX">
       <Filter>Assets</Filter>
     </MeshContentTask>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="Souce\Utilities.cpp" />
+    <ClCompile Include="Souce\Adx2Le.cpp" />
+    <ClCompile Include="Souce\BinaryFile.cpp" />
+    <ClCompile Include="Souce\DebugMode.cpp" />
+    <ClCompile Include="Souce\DeviceResources.cpp" />
+    <ClCompile Include="Souce\Game.cpp" />
+    <ClCompile Include="Souce\Main.cpp" />
+    <ClCompile Include="Souce\MyEffect.cpp" />
+    <ClCompile Include="Souce\pch.cpp" />
+    <ClCompile Include="Souce\Collider\BoxCollider.cpp">
+      <Filter>Colider</Filter>
+    </ClCompile>
+    <ClCompile Include="Souce\Collider\Collider.cpp">
+      <Filter>Colider</Filter>
+    </ClCompile>
+    <ClCompile Include="Souce\Collider\SphereCollider.cpp">
+      <Filter>Colider</Filter>
+    </ClCompile>
+    <ClCompile Include="Souce\GameObject\DebugCamera.cpp">
+      <Filter>GameObject</Filter>
+    </ClCompile>
+    <ClCompile Include="Souce\GameObject\FixedCamera.cpp">
+      <Filter>GameObject</Filter>
+    </ClCompile>
+    <ClCompile Include="Souce\GameObject\GameObject.cpp">
+      <Filter>GameObject</Filter>
+    </ClCompile>
+    <ClCompile Include="Souce\GameObject\GridFloor.cpp">
+      <Filter>GameObject</Filter>
+    </ClCompile>
+    <ClCompile Include="Souce\GameObject\TargetCamera.cpp">
+      <Filter>GameObject</Filter>
+    </ClCompile>
+    <ClCompile Include="Souce\Manager\CollisionManager.cpp">
+      <Filter>Manager</Filter>
+    </ClCompile>
+    <ClCompile Include="Souce\Manager\EffectManager.cpp">
+      <Filter>Manager</Filter>
+    </ClCompile>
+    <ClCompile Include="Souce\Manager\GameObjectManager.cpp">
+      <Filter>Manager</Filter>
+    </ClCompile>
+    <ClCompile Include="Souce\Manager\GameSceneManager.cpp">
+      <Filter>Manager</Filter>
+    </ClCompile>
+    <ClCompile Include="Souce\Manager\ScoreManager.cpp">
+      <Filter>Manager</Filter>
+    </ClCompile>
+    <ClCompile Include="Souce\Scene\PlayScene\Bullet.cpp">
+      <Filter>Scene\PlayScene</Filter>
+    </ClCompile>
+    <ClCompile Include="Souce\Scene\PlayScene\ChargeShot.cpp">
+      <Filter>Scene\PlayScene</Filter>
+    </ClCompile>
+    <ClCompile Include="Souce\Scene\PlayScene\EnemyBullet.cpp">
+      <Filter>Scene\PlayScene</Filter>
+    </ClCompile>
+    <ClCompile Include="Souce\Scene\PlayScene\EnemyGenerator.cpp">
+      <Filter>Scene\PlayScene</Filter>
+    </ClCompile>
+    <ClCompile Include="Souce\Scene\PlayScene\Ground.cpp">
+      <Filter>Scene\PlayScene</Filter>
+    </ClCompile>
+    <ClCompile Include="Souce\Scene\PlayScene\NormalEnemy.cpp">
+      <Filter>Scene\PlayScene</Filter>
+    </ClCompile>
+    <ClCompile Include="Souce\Scene\PlayScene\Player.cpp">
+      <Filter>Scene\PlayScene</Filter>
+    </ClCompile>
+    <ClCompile Include="Souce\Scene\PlayScene\PlayScene.cpp">
+      <Filter>Scene\PlayScene</Filter>
+    </ClCompile>
+    <ClCompile Include="Souce\Scene\PlayScene\SideMoveEnemy.cpp">
+      <Filter>Scene\PlayScene</Filter>
+    </ClCompile>
+    <ClCompile Include="Souce\Scene\PlayScene\SkyDoom.cpp">
+      <Filter>Scene\PlayScene</Filter>
+    </ClCompile>
+    <ClCompile Include="Souce\Scene\PlayScene\WaveMoveEnemy.cpp">
+      <Filter>Scene\PlayScene</Filter>
+    </ClCompile>
+    <ClCompile Include="Souce\Scene\ResultScene\ResultScene.cpp">
+      <Filter>Scene\ResultScene</Filter>
+    </ClCompile>
+    <ClCompile Include="Souce\Scene\TitleScene\TitleScene.cpp">
+      <Filter>Scene\TitleScene</Filter>
+    </ClCompile>
+    <ClCompile Include="Souce\UI\ChargeUI.cpp">
+      <Filter>UI</Filter>
+    </ClCompile>
+    <ClCompile Include="Souce\UI\Moji.cpp">
+      <Filter>UI</Filter>
+    </ClCompile>
+    <ClCompile Include="Souce\UI\Font.cpp">
+      <Filter>UI</Filter>
+    </ClCompile>
+    <ClCompile Include="Souce\UI\Reticule.cpp">
+      <Filter>UI</Filter>
+    </ClCompile>
+    <ClCompile Include="Souce\UI\SpecialUI.cpp">
+      <Filter>UI</Filter>
+    </ClCompile>
+    <ClCompile Include="Souce\UI\HPGauge.cpp">
+      <Filter>UI</Filter>
+    </ClCompile>
+    <ClCompile Include="Souce\Scene\PlayScene\PseudoObject.cpp">
+      <Filter>Scene\PlayScene</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="Souce\Utilities.h" />
+    <ClInclude Include="Souce\View.h" />
+    <ClInclude Include="Souce\Adx2Le.h" />
+    <ClInclude Include="Souce\BinaryFile.h" />
+    <ClInclude Include="Souce\DebugMode.h" />
+    <ClInclude Include="Souce\DeviceResources.h" />
+    <ClInclude Include="Souce\Game.h" />
+    <ClInclude Include="Souce\GameContext.h" />
+    <ClInclude Include="Souce\GameScene.h" />
+    <ClInclude Include="Souce\Myeffect.h" />
+    <ClInclude Include="Souce\pch.h" />
+    <ClInclude Include="Souce\picojson.h" />
+    <ClInclude Include="Souce\Projection.h" />
+    <ClInclude Include="Souce\StepTimer.h" />
+    <ClInclude Include="Souce\Collider\BoxCollider.h">
+      <Filter>Colider</Filter>
+    </ClInclude>
+    <ClInclude Include="Souce\Collider\Collider.h">
+      <Filter>Colider</Filter>
+    </ClInclude>
+    <ClInclude Include="Souce\Collider\SphereCollider.h">
+      <Filter>Colider</Filter>
+    </ClInclude>
+    <ClInclude Include="Souce\GameObject\DebugCamera.h">
+      <Filter>GameObject</Filter>
+    </ClInclude>
+    <ClInclude Include="Souce\GameObject\FixedCamera.h">
+      <Filter>GameObject</Filter>
+    </ClInclude>
+    <ClInclude Include="Souce\GameObject\GameObject.h">
+      <Filter>GameObject</Filter>
+    </ClInclude>
+    <ClInclude Include="Souce\GameObject\GridFloor.h">
+      <Filter>GameObject</Filter>
+    </ClInclude>
+    <ClInclude Include="Souce\GameObject\TargetCamera.h">
+      <Filter>GameObject</Filter>
+    </ClInclude>
+    <ClInclude Include="Souce\Manager\CollisionManager.h">
+      <Filter>Manager</Filter>
+    </ClInclude>
+    <ClInclude Include="Souce\Manager\EffectManager.h">
+      <Filter>Manager</Filter>
+    </ClInclude>
+    <ClInclude Include="Souce\Manager\GameObjectManager.h">
+      <Filter>Manager</Filter>
+    </ClInclude>
+    <ClInclude Include="Souce\Manager\GameSceneManager.h">
+      <Filter>Manager</Filter>
+    </ClInclude>
+    <ClInclude Include="Souce\Manager\ScoreManager.h">
+      <Filter>Manager</Filter>
+    </ClInclude>
+    <ClInclude Include="Souce\Scene\PlayScene\Bullet.h">
+      <Filter>Scene\PlayScene</Filter>
+    </ClInclude>
+    <ClInclude Include="Souce\Scene\PlayScene\ChargeShot.h">
+      <Filter>Scene\PlayScene</Filter>
+    </ClInclude>
+    <ClInclude Include="Souce\Scene\PlayScene\EnemyBullet.h">
+      <Filter>Scene\PlayScene</Filter>
+    </ClInclude>
+    <ClInclude Include="Souce\Scene\PlayScene\EnemyGenerator.h">
+      <Filter>Scene\PlayScene</Filter>
+    </ClInclude>
+    <ClInclude Include="Souce\Scene\PlayScene\Ground.h">
+      <Filter>Scene\PlayScene</Filter>
+    </ClInclude>
+    <ClInclude Include="Souce\Scene\PlayScene\NormalEnemy.h">
+      <Filter>Scene\PlayScene</Filter>
+    </ClInclude>
+    <ClInclude Include="Souce\Scene\PlayScene\Player.h">
+      <Filter>Scene\PlayScene</Filter>
+    </ClInclude>
+    <ClInclude Include="Souce\Scene\PlayScene\PlayScene.h">
+      <Filter>Scene\PlayScene</Filter>
+    </ClInclude>
+    <ClInclude Include="Souce\Scene\PlayScene\SideMoveEnemy.h">
+      <Filter>Scene\PlayScene</Filter>
+    </ClInclude>
+    <ClInclude Include="Souce\Scene\PlayScene\SkyDoom.h">
+      <Filter>Scene\PlayScene</Filter>
+    </ClInclude>
+    <ClInclude Include="Souce\Scene\PlayScene\WaveMoveEnemy.h">
+      <Filter>Scene\PlayScene</Filter>
+    </ClInclude>
+    <ClInclude Include="Souce\Scene\TitleScene\TitleScene.h">
+      <Filter>Scene\TitleScene</Filter>
+    </ClInclude>
+    <ClInclude Include="Souce\UI\ChargeUI.h">
+      <Filter>UI</Filter>
+    </ClInclude>
+    <ClInclude Include="Souce\UI\Moji.h">
+      <Filter>UI</Filter>
+    </ClInclude>
+    <ClInclude Include="Souce\UI\Font.h">
+      <Filter>UI</Filter>
+    </ClInclude>
+    <ClInclude Include="Souce\UI\Reticule.h">
+      <Filter>UI</Filter>
+    </ClInclude>
+    <ClInclude Include="Souce\UI\SpecialUI.h">
+      <Filter>UI</Filter>
+    </ClInclude>
+    <ClInclude Include="Souce\Scene\ResultScene\ResultScene.h">
+      <Filter>Scene\ResultScene</Filter>
+    </ClInclude>
+    <ClInclude Include="Souce\UI\HPGauge.h">
+      <Filter>UI</Filter>
+    </ClInclude>
+    <ClInclude Include="Souce\Scene\PlayScene\PseudoObject.h">
+      <Filter>Scene\PlayScene</Filter>
+    </ClInclude>
   </ItemGroup>
 </Project>
